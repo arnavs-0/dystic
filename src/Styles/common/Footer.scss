@@ -1,6 +1,14 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
+
+$primary_color: #1A2E35;
+$text-color: #FFFFFF;
+
 .Footer {
-  background-color: $primary;
-  color: aliceblue;
+  background-color: $primary_color;
+  color: $text-color;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  padding: 10px 50px;
 }
