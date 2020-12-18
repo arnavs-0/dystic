@@ -1,5 +1,5 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 $primary_color: #1A2E35;
 $text-color: #FFFFFF;
@@ -11,4 +11,5 @@ $text-color: #FFFFFF;
   height: 300px;
   margin-top: 50px;
   padding: 10px 50px;
+  font-family: 'Poppins', sans-serif;
 }
