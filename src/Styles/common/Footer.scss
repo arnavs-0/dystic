@@ -1,8 +1,7 @@
-@import "node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-$primary_color: #1A2E35;
-$text-color: #FFFFFF;
+$primary_color: #FFFFFF;
+$text-color: #4D4940;
 
 .Footer {
   background-color: $primary_color;
@@ -13,3 +12,17 @@ $text-color: #FFFFFF;
   padding: 10px 50px;
   font-family: 'Poppins', sans-serif;
 }
+
+.text {
+  color: $text-color;
+}
+.text:hover {
+  color: #4D4940;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+  background-color: $text-color !important;
+  border-color: $text-color !important;
+}
+
+

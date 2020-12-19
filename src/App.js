@@ -7,7 +7,6 @@ import Footer from "./Components/common/Footer";
 function App() {
   return (
     <div className="App">
-      Hello World
         <Footer />
     </div>
   );
