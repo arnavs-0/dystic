@@ -1,15 +1,14 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.scss';
-
-// Common Components
-import Footer from "./Components/common/Footer";
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      Hello World
-        <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+      </Switch>
+    </Router>
   );
 }
 

@@ -1,0 +1,12 @@
+
+$theme-colors: (
+    "primary": #4d4940,
+    "info": tomato,
+    "danger": teal
+);
+
+$colors: (
+    'white': white
+);
+
+@import "~bootstrap/scss/bootstrap";

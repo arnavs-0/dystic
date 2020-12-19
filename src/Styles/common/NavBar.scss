@@ -1,0 +1,17 @@
+$bgDefault      : #ffffff;
+$bgHighlight    : #162b33;
+$colDefault     : #4d4940;
+$colHighlight   : #ffffff;
+
+.nav-pills {
+    
+  
+    .nav-link.active,
+    .show > .nav-link {
+      color: $bgHighlight;
+      background-color: $bgHighlight;
+    }
+  }
+
+@import "~bootstrap/scss/bootstrap/";
+@import "../../App.scss"
