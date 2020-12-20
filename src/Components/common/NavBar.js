@@ -7,8 +7,9 @@ export class Navigation extends Component {
     render() {
         return (
          <div className="NavBar"> 
-      <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <ReactBootstrap.Navbar.Brand href="#home">dystic</ReactBootstrap.Navbar.Brand>
+      <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+  <ReactBootstrap.Navbar.Brand href="#home" className="navbar-brand">dystic</ReactBootstrap.Navbar.Brand>
+  <div className = "slogan">making job search more accessible </div>
   <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootstrap.Nav className="ml-auto">
