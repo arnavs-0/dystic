@@ -1,17 +1,25 @@
-$bgDefault      : #ffffff;
-$bgHighlight    : #162b33;
-$colDefault     : #4d4940;
-$colHighlight   : #ffffff;
+$bgDefault: #ffffff;
+$bgHighlight: #162b33;
+$colDefault: #4d4940;
+$colHighlight: #ffffff;
+
+@media (min-width: 992px) {
+  .navbar {
+  }
+}
+
+.nav-link {
+  margin-left: 2em;
+  justify-content: flex-end;
+}
 
 .nav-pills {
-    
-  
-    .nav-link.active,
-    .show > .nav-link {
-      color: $bgHighlight;
-      background-color: $bgHighlight;
-    }
+  .nav-link.active,
+  .show > .nav-link {
+    color: $bgHighlight;
+    background-color: $bgHighlight;
   }
+}
 
 @import "~bootstrap/scss/bootstrap/";
-@import "../../App.scss"
+@import "../../App.scss";
