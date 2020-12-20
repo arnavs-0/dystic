@@ -3,11 +3,13 @@ import './App.scss';
 
 // Common Components
 import Footer from "./Components/common/Footer";
+import Contact from './Components/Pages/Contact';
 
 function App() {
   return (
     <div className="App">
-        <Footer />
+      <Contact />    
+      <Footer />
     </div>
   );
 }
