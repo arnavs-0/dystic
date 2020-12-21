@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import '../../../Styles/Pages/Home/Search.scss'
+import '../../../Styles/Pages/Home/Radio.scss'
 
 export class Search extends Component {
     render() {
