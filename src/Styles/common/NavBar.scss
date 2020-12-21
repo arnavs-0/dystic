@@ -20,7 +20,6 @@ $colHighlight: #ffffff;
     background-color: $bgHighlight;
   }
 }
-
 .navbar-brand {
   color: #4d4940 !important;
   font-size: 4rem !important;
@@ -36,7 +35,28 @@ $colHighlight: #ffffff;
 
 .slogan {
   padding-left: -60%;
-  margin-left: 10%;
+  margin-left: -0.5%;
   margin-right: 10%;
+  margin-top: 2%;
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 766px) {
+  .navbar {
+    margin-left: 2.5em !important;
+    margin-right: 2.5em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    margin-left: 0.5em !important;
+    margin-right: 0.5em !important;
+  }
+  .navbar-toggler-icon,
+  .navbar-toggler {
+    right: 15px;
+    position: absolute;
+    padding-top: -4em;
+  }
 }

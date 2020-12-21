@@ -5,7 +5,7 @@ export class Navigation extends Component {
     render() {
         return (
          <div className="NavBar"> 
-          <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+          <Navbar collapseOnSelect expand="lg" bg="none" variant="light">
             <Row>
               <Navbar.Brand href="#home" className="navbar-brand">dystic</Navbar.Brand>
               <div className = "slogan">making job search more accessible </div>
