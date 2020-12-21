@@ -28,13 +28,13 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(240, 240, 240, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     pointer-events: none;
   }
   
   .wrap-search {
     width: 100%;
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
     padding: 72px 150px 25px 150px;
@@ -55,14 +55,14 @@
     display: block;
     font-size: 30px;
     font-family: 'Poppins';
-    color: #333333;
+    color: #4D4940;
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
     padding-bottom: 34px;
   }
   
   
-  .wrap-input {
+  .wrap-input-search {
     width: 100%;
     position: relative;
     background-color: #fff;
@@ -149,13 +149,13 @@
     align-items: center;
     padding: 0 20px;
     min-width: 160px;
-    height: 42px;
+    height: 126px;
     background-color: #1A2E35;
     border-radius: 21px;
     
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    color: #fff;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     line-height: 1;
     text-transform: uppercase;
     padding-top: 5px;
@@ -172,24 +172,24 @@
     -o-box-shadow: 0 10px 30px 0px rgba(26, 46, 53, 0.5);
     -ms-box-shadow: 0 10px 30px 0px rgba(26, 46, 53, 0.5);
   }
-    .contact-form-btn:hover {
+    .search-form-btn:hover {
     background-color:#000000 ;
 
   }
-    .contact-form-btn:active {
+    .search-form-btn:active {
     background-color:#1A2E35 !important ;
 
   }
 
   
   @media (max-width: 768px) {
-    .wrap-contact {
+    .wrap-search {
       padding: 72px 50px 25px 50px;
     }
   }
   
   @media (max-width: 576px) {
-    .wrap-contact {
+    .wrap-search {
       padding: 72px 15px 25px 15px;
     }
   }
@@ -208,9 +208,9 @@
     color: #1A2E35;
   }
 
-  //radio buttons
+  //radio scss
 
-  .group {
+  .radiogroup {
     padding: 48px 64px;
     border-radius: 16px;
     background: #ecf0f3;
@@ -218,12 +218,11 @@
       4px 4px 4px 0px #d1d9e6 inset,
       -4px -4px 4px 0px #ffffff inset;
   }
-  
-  
+
   .wrapper {
     margin: 8px 0;
   }
-  
+
   .state {
     position: absolute;
     top: 0;
@@ -231,20 +230,20 @@
     opacity: 1e-5;
     pointer-events: none;
   }
-  
+
   .label {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
     color: #394a56;
   }
-  
-  .text {
+
+  .text-radio {
     margin-left: 16px;
     opacity: .6;
     transition: opacity .2s linear, transform .2s ease-out;
   }
-  
+
   .indicator {
     position: relative;
     border-radius: 50%;

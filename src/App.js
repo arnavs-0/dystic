@@ -9,7 +9,7 @@ import Search from './Components/other/home/Search';
 function App() {
   return (
     <div className="App">
-      <Search />  
+      <Search />
       <Footer />
     </div>
   );

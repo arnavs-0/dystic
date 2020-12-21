@@ -2,7 +2,6 @@ import React from 'react';
 import '../../Styles/common/Footer.scss'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import 'bootstrap/dist/css/bootstrap.css'
 import { Button, Container } from 'react-bootstrap';
 import {OpenOnboarding} from '../other/form/Newsletter'
 
