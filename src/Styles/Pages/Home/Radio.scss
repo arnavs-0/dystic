@@ -1,7 +1,7 @@
 .radiogroup {
     padding: 48px 64px;
     border-radius: 16px;
-    background: #ecf0f3;
+    background: #f4f6f7;
     box-shadow:
       4px 4px 4px 0px #d1d9e6 inset,
       -4px -4px 4px 0px #ffffff inset;
@@ -61,7 +61,7 @@
   }
   
   .indicator::after {
-    background-color: #ecf0f3;
+    background-color: #d0ebf5;
     box-shadow:
       -4px -2px 4px 0px #fff,
       4px 2px 8px 0px #d1d9e6;
@@ -71,7 +71,8 @@
   
   .state:checked ~ .label .indicator::after {
     transform: scale3d(.975, .975, 1) translate3d(0, 10%, 0);
-    opacity: 0;
+    background-color: #1A2E35;
+    opacity: 1;
   }
   
   .state:focus ~ .label .text {
