@@ -25,7 +25,7 @@ export const OpenOnboarding = () => {
                 name: 'email',
                 type: 'text',
                 placeholder: '',
-                validation: '[a-zA-Z]'
+                validation: '^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$'
               },
             ],
             onSubmit: newsSubmit
@@ -38,6 +38,6 @@ export const OpenOnboarding = () => {
   };
 
   function newsSubmit(){
-      console.log("Here");
+      console.log('Here');
   }
 
