@@ -15,3 +15,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+$theme-colors: (
+    "primary": #4D4940
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
