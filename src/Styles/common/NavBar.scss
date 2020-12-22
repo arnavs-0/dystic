@@ -5,19 +5,23 @@ $bgHighlight: #162b33;
 $colDefault: #4d4940;
 $colHighlight: #ffffff;
 
-.navbar {
-  height: 11.5rem;
+h6 {
+  text-align: center;
+  margin-bottom: 0px !important;
 }
+
 .nav-link {
   margin-left: 2em;
   justify-content: flex-end;
 }
 
 .nav-pills {
-  .nav-link.active,
-  .show > .nav-link {
-    color: $bgHighlight;
-    background-color: $bgHighlight;
+  .nav-link.active {
+    color: $colHighlight !important;
+    background-color: $bgHighlight !important;
+    width: 100px;
+    height: auto;
+    border-radius: 30px;
   }
 }
 .navbar-brand {
@@ -41,22 +45,66 @@ $colHighlight: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 992px) {
+  .navbar-nav {
+    width: max-content;
+    overflow: hidden !important;
+  }
+  .navbar-collapse {
+    background: $bgHighlight !important;
+  }
+  .nav-color {
+    color: #fff !important;
+  }
+}
+
 @media (max-width: 766px) {
   .navbar {
     margin-left: 2.5em !important;
     margin-right: 2.5em !important;
   }
+  .slogan {
+    display: none;
+  }
+  .navbar-nav {
+    width: max-content;
+    overflow: hidden !important;
+  }
+  .navbar-collapse {
+    background: $bgHighlight !important;
+  }
+  .nav-color {
+    color: #fff !important;
+  }
 }
 
 @media (max-width: 576px) {
+  body {
+    margin: 0em !important;
+  }
   .navbar {
     margin-left: 0.5em !important;
     margin-right: 0.5em !important;
   }
-  .navbar-toggler-icon,
-  .navbar-toggler {
-    right: 15px;
-    position: absolute;
-    padding-top: -4em;
+  .navbar-brand {
+    color: #4d4940 !important;
+    font-size: 2rem !important;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px !important;
   }
+  .slogan {
+    display: none;
+  }
+  .navbar-nav {
+    width: max-content;
+    overflow: hidden !important;
+  }
+  .navbar-collapse {
+    background: $bgHighlight !important;
+  }
+  .nav-color {
+    color: #fff !important;
+  }
+  
+  
 }

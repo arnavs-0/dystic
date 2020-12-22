@@ -4,7 +4,7 @@ import NavBar from '../Components/common/NavBar'
 function Home() {
     return (
         <div>
-            <NavBar />
+            <NavBar home="nav-link active" />
         </div>
     )
 }
