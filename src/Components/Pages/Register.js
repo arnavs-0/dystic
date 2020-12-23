@@ -26,6 +26,25 @@ function Register(props) {
         return re.test(pw);
     }
 
+    const shouldRegisterButtonEnable = () => {
+        if (fullName !== "" && email !== "" && password !== "" && cPassword !== "") {
+            if (validateEmail(email)) {
+                if (password === cPassword) {
+                    if (validatePassword(cPassword)) {
+                        if (country !== "") {
+                            if (!(disbArr === undefined || disbArr.length === 0)) {
+                                console.log("Registered Successfully")
+                                return false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        console.log("Failed")
+        return true
+    }
+
     useEffect(() => {
         console.log(disbArr)
     }, [disbArr])
@@ -74,12 +93,11 @@ function Register(props) {
                                         id={`id-N/A`}
                                         className="text-left"
                                         label="N/A"
-                                        onChange={()=>{
+                                        onChange={() => {
                                             setNAChecked(!NAChecked)
-                                            if (!disbArr.includes("N/A")){
+                                            if (!disbArr.includes("N/A")) {
                                                 setDisbArr(["N/A"])
-                                            }
-                                            else {
+                                            } else {
                                                 setDisbArr([])
                                             }
                                         }}
@@ -105,34 +123,7 @@ function Register(props) {
                     </Form.Group>
                 </Form.Group>
                 <h4>Already have an account? <a href="/login">Login</a></h4>
-                <Button className="registerButton" onClick={() => {
-                    if (fullName !== "" && email !== "" && password !== "" && cPassword !== "") {
-                        if (validateEmail(email)) {
-                            if (password === cPassword) {
-                                if (validatePassword(cPassword)) {
-                                    if (country !== "") {
-                                        if (disbArr!==[]){
-                                            console.log("Registerd Successfully")
-                                        }
-                                        else {
-                                            console.log("Please confirm your disabilities (Select N/A if not applicable)")
-                                        }
-                                    } else {
-                                        console.log("Please select country")
-                                    }
-                                } else {
-                                    console.log("Weak Password")
-                                }
-                            } else {
-                                console.log("Your password doesn't match")
-                            }
-                        } else {
-                            console.log("Invalid email form")
-                        }
-                    } else {
-                        console.log("Don't leave the fields empty")
-                    }
-                }}>
+                <Button className="registerButton" disabled={shouldRegisterButtonEnable()}>
                     Register
                 </Button>
             </Form>
