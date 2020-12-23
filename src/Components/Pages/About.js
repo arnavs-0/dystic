@@ -1,11 +1,10 @@
 import React from 'react';
+import NavBar from '../common/NavBar'
 
 function About(props) {
     return (
         <div>
-            <h1>
-                About Page
-            </h1>
+            <NavBar about="nav-link active" />
         </div>
     );
 }
