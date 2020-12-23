@@ -45,8 +45,10 @@ function Register(props) {
         return true
     }
 
+    // Debugging Tools
+
     useEffect(() => {
-        console.log(disbArr)
+        // console.log(disbArr)
     }, [disbArr])
 
     useEffect(() => {
