@@ -13,14 +13,7 @@ import Login from "./Components/Pages/Login";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
-                <Switch>
-                    <Route path="/contact" exact component={Contact}/>
-                    <Route path="/register" exact component={Register}/>
-                    <Route path="/login" exact component={Login}/>
-                </Switch>
-            </BrowserRouter>
-            <Footer/>
+            <Register/>
         </div>
     );
 }

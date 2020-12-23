@@ -1,0 +1,54 @@
+$buttonColor: #1A2E35;
+
+.registerHeading {
+  color: #1A2E35;
+}
+
+.register-container {
+  position: relative;
+  display: table;
+  background-color: #F7F7F7;
+  width: 800px;
+  height: 600px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  top: 50%;
+}
+
+.registerButton{
+  margin-bottom: 30px;
+  width: 130px;
+}
+
+.disContainer {
+  position: relative;
+  width: max-content;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.register-container a {
+  color: #E1AE9A;
+}
+
+.register-container a:hover {
+  text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+  .register-container{
+    width: 550px;
+  }
+}
+
+@media (max-width: 576px) {
+  .register-container{
+    width: 350px;
+  }
+}
