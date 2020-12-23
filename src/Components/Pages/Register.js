@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import '../../Styles/Pages/Register/Register.scss'
 
 // Components
@@ -11,6 +11,9 @@ function Register(props) {
     const [password, setPassword] = useState("")
     const [cPassword, setCPassword] = useState("")
     const [country, setCountry] = useState("")
+    const [disbArr, setDisbArr] = useState([])
+
+    const [NAChecked, setNAChecked] = useState(false)
 
     const validateEmail = (email) => {
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -23,6 +26,13 @@ function Register(props) {
         return re.test(pw);
     }
 
+    useEffect(() => {
+        console.log(disbArr)
+    }, [disbArr])
+
+    useEffect(() => {
+        // console.log(NAChecked)
+    }, [NAChecked])
 
     return (
         <div className='register-container'>
@@ -60,13 +70,35 @@ function Register(props) {
                     <Form.Label>Select Disabilities</Form.Label>
                     <Form.Group controlId="disabiltiesCheckboxContainer">
                         <div className="disContainer">
-                            {['N/A', 'Visual', 'Hearing', 'Nervous', 'Mental', 'Other'].map(val => (
-
+                            <Form.Check type="checkbox"
+                                        id={`id-N/A`}
+                                        className="text-left"
+                                        label="N/A"
+                                        onChange={()=>{
+                                            setNAChecked(!NAChecked)
+                                            if (!disbArr.includes("N/A")){
+                                                setDisbArr(["N/A"])
+                                            }
+                                            else {
+                                                setDisbArr([])
+                                            }
+                                        }}
+                            />
+                            {['Visual', 'Hearing', 'Nervous', 'Mental', 'Other'].map(val => (
                                 <div key={`default-${val}`} className="text-left">
                                     <Form.Check
                                         type="checkbox"
                                         id={`id-${val}`}
                                         label={val}
+                                        disabled={NAChecked}
+                                        onChange={(e) => {
+                                            const labelText = String(e.target.id).split("-")[1]
+                                            if (disbArr.includes(labelText)) {
+                                                setDisbArr(disbArr.filter(d => d !== labelText))
+                                            } else {
+                                                setDisbArr([...disbArr, labelText])
+                                            }
+                                        }}
                                     />
                                 </div>
                             ))}</div>
@@ -79,7 +111,12 @@ function Register(props) {
                             if (password === cPassword) {
                                 if (validatePassword(cPassword)) {
                                     if (country !== "") {
-                                        console.log("Registerd Successfully")
+                                        if (disbArr!==[]){
+                                            console.log("Registerd Successfully")
+                                        }
+                                        else {
+                                            console.log("Please confirm your disabilities (Select N/A if not applicable)")
+                                        }
                                     } else {
                                         console.log("Please select country")
                                     }
