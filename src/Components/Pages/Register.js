@@ -56,9 +56,9 @@ function Register(props) {
                         <option>Other</option>
                     </Form.Control>
                 </Form.Group>
-                <Form.Group controlId="exampleForm.ControlSelect2">
+                <Form.Group controlId="registerForm.disabilitiesFormGroup">
                     <Form.Label>Select Disabilities</Form.Label>
-                    <Form.Group controlId="disabiltieCheckboxContainer">
+                    <Form.Group controlId="disabiltiesCheckboxContainer">
                         <div className="disContainer">
                             {['N/A', 'Visual', 'Hearing', 'Nervous', 'Mental', 'Other'].map(val => (
 
