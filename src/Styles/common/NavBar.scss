@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+$bgDefault: #ffffff;
+$bgHighlight: #162b33;
+$colDefault: #4d4940;
+$colHighlight: #ffffff;
+
+h6 {
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.nav-link {
+  margin-left: 2em;
+  justify-content: flex-end;
+}
+
+.nav-pills {
+  .nav-link.active {
+    color: $colHighlight !important;
+    background-color: $bgHighlight !important;
+    width: 100px;
+    height: auto;
+    border-radius: 30px;
+  }
+}
+.navbar-brand {
+  color: #4d4940 !important;
+  font-size: 4rem !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-link {
+  color: #4d4940 !important;
+  font-family: "Poppins", sans-serif;
+}
+@import "~bootstrap/scss/bootstrap/";
+@import "../../App.scss";
+
+.slogan {
+  padding-left: -60%;
+  margin-left: -0.5%;
+  margin-right: 10%;
+  margin-top: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    width: max-content;
+    overflow: hidden !important;
+  }
+  .navbar-collapse {
+    background: $bgHighlight !important;
+  }
+  .nav-color {
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 766px) {
+  .navbar {
+    margin-left: 2.5em !important;
+    margin-right: 2.5em !important;
+  }
+  .slogan {
+    display: none;
+  }
+  .navbar-nav {
+    width: max-content;
+    overflow: hidden !important;
+  }
+  .navbar-collapse {
+    background: $bgHighlight !important;
+  }
+  .nav-color {
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    margin: 0em !important;
+  }
+  .navbar {
+    margin-left: 0.5em !important;
+    margin-right: 0.5em !important;
+  }
+  .navbar-brand {
+    color: #4d4940 !important;
+    font-size: 2rem !important;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px !important;
+  }
+  .slogan {
+    display: none;
+  }
+  .navbar-nav {
+    width: max-content;
+    overflow: hidden !important;
+  }
+  .navbar-collapse {
+    background: $bgHighlight !important;
+  }
+  .nav-color {
+    color: #fff !important;
+  }
+}

@@ -1,0 +1,31 @@
+$theme-colors: (
+  "primary": #4d4940,
+  "info": tomato,
+  "danger": teal,
+);
+
+$colors: (
+  "white": white,
+);
+@media (min-width: 768px) {
+  body {
+    margin-left: 3.5em !important;
+    margin-right: 3.5em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-left: 2.5em !important;
+    margin-right: 2.5em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-left: 2.5em !important;
+    margin-right: 2.5em !important;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";
