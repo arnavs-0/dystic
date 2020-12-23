@@ -44,7 +44,7 @@ function Register(props) {
                     <Form.Label>Confirm your Password</Form.Label>
                     <Form.Control type="password" onChange={(e) => setCPassword(e.target.value)}/>
                 </Form.Group>
-                <Form.Group controlId="exampleForm.ControlSelect1">
+                <Form.Group controlId="registerForm.countryDropdown">
                     <Form.Label>Select Country of Residence</Form.Label>
                     <Form.Control as="select" onChange={(e) => setCountry(e.target.value)}>
                         <option defaultValue="Select"/>
@@ -57,9 +57,9 @@ function Register(props) {
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlSelect2">
                     <Form.Label>Select Disabilities</Form.Label>
-                    <Form.Group controlId="formBasicCheckbox">
+                    <Form.Group controlId="disabiltieCheckboxContainer">
                         <div className="disContainer">
-                            {['Visual', 'Hearing', 'Nervous', 'Mental', 'Other'].map(val => (
+                            {['N/A', 'Visual', 'Hearing', 'Nervous', 'Mental', 'Other'].map(val => (
 
                                 <div key={`default-${val}`} className="text-left">
                                     <Form.Check
