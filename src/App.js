@@ -5,12 +5,19 @@ import './App.scss';
 import Footer from "./Components/common/Footer";
 import Contact from './Components/Pages/Contact';
 import Search from './Components/other/home/Search';
+import Results from "./Components/Pages/Results";
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Search />
-      <Footer />
+
+        <Router>
+          <Route path="/results" component={Results} />
+        </Router>
+
+      
     </div>
   );
 }
