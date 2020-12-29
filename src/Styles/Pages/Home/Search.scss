@@ -171,7 +171,15 @@
     -webkit-box-shadow: 0 10px 30px 0px rgba(26, 46, 53, 0.5);
     -o-box-shadow: 0 10px 30px 0px rgba(26, 46, 53, 0.5);
     -ms-box-shadow: 0 10px 30px 0px rgba(26, 46, 53, 0.5);
+  
+
+
+  // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  margin-top: 255px;
+   }
   }
+
     .search-form-btn:hover {
     background-color:#000000 ;
 
