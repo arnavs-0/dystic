@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .contain-filter{
 
     box-shadow:
@@ -16,6 +21,131 @@
     background: white;
     border-radius: 20px;
   }
-  job-title {
-      font-size:38px;
+  .job-title {
+      font-size:20px;
+      padding: 10%;
+      padding-top:13%;
+      font-weight: 450;
   }
+
+  .job-input {
+    outline: 0;
+     border-width: 0 0 1.5px;
+     border-color: #707070;
+     width: 100%;
+  }
+
+  
+ ::placeholder {
+  font-size: 12px;
+}
+  .city-title{
+    
+      font-size: 20px;
+      padding: 10%;
+      padding-top: 13%;
+      margin-top: -10%;
+      font-weight: 450;
+    
+  }
+
+  .city-input{
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: #707070;
+    width: 100%;
+    
+ }
+  
+  input {
+    font-size: 12px;
+ 
+  }
+
+  .list-img {
+   margin-left:10%;
+   margin-top:9%;  
+   margin-bottom:10%;
+   margin-right:4%;
+   width:7.5%;
+   display: flex;
+   align-items:center;
+  }
+
+  .list-title{
+    font-size:12px;
+      display: flex;
+      align-items:center;
+  }
+.map-title{
+  font-size:12px;
+  margin-left: 55%;
+  margin-top: -19%;
+  display: flex;
+   align-items:center;
+}
+  .map-img{ 
+ 
+    width:13%;
+    margin-right: 8%;
+    margin-top: 5%;
+    display: flex;
+   align-items:center;
+
+  }
+.drop-down{
+  margin-top: 9%;
+  margin-left:5%;
+  text-decoration: none;
+  font-size:10px;
+  margin-bottom: -7%;
+  
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus{
+  background-color:white !important;
+  
+}
+
+.btn-primary{
+  color: #4D4940;
+   border:none;
+  
+   
+}
+
+.btn-primary:hover{ 
+  color: #F4B2B0 !important;
+   
+}
+
+.btn{ 
+  border:none;
+  font-size:11px;
+}
+
+.resetbtn{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  border-radius:20px;
+  width:200px;
+  height:40px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+   
+
+}
+
+.resetbtn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
