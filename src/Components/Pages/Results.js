@@ -48,6 +48,11 @@ function Results(props) {
          </div>
   
   <button className="resetbtn">Reset Search</button>
+        <div className="card">
+          
+            Chocolate
+               <input placeholder="eg. Artist" class="job-input" ></input>
+          </div>
         </div>
 
 
