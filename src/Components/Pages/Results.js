@@ -6,16 +6,21 @@ import Dropdown from 'react-bootstrap/Dropdown'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 
 function Results(props) {
+    //Title input
+    const [title, setTitle] = useState('')
+    // City input
+    const [city, setCity] = useState('')
+    // Bottom input
     const [typed, setTyped] = useState('')
     return (
         <div className="contain-filter">
             <div className="job-title">
                 Jobs Title
-                <input placeholder="eg. Artist" className="job-input"/>
+                <input placeholder="eg. Artist" className="job-input" onChange={event => setTitle(event.target.value)}/>
             </div>
             <div className="city-title">
                 City
-                <input placeholder="eg. Detroit" className="city-input"/>
+                <input placeholder="eg. Detroit" className="city-input" onChange={event => setCity(event.target.value)}/>
             </div>
 
             <div className="d-flex justify-content-around align-items-center ">
