@@ -109,13 +109,25 @@ input {
 .btn-primary {
   color: #4D4940;
   border: none;
+}
 
+.btn-view {
+  cursor: pointer;
+  color: #1A2E35;
+  font-size: 15px;
+  background: none;
+  border: none;
+  outline: none;
+}
 
+.btn-view:hover {
+  background: #1A2E35;
+  color: #F4B2B0;
+  border-radius: 30px;
 }
 
 .btn-primary:hover {
   color: #F4B2B0 !important;
-
 }
 
 .btn {

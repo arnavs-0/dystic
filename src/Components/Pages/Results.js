@@ -21,12 +21,12 @@ function Results(props) {
             <div className="d-flex justify-content-around align-items-center ">
                 <div className="d-flex align-items-center justify-content-around view-container">
                     <img className="view-icon" src={List}/>
-                    List View
+                    <button className="btn-view">List View</button>
                 </div>
 
                 <div className="d-flex align-items-center justify-content-around view-container">
                     <img className="view-icon" src={Map}/>
-                    Map View
+                    <button className="btn-view">Map View</button>
                 </div>
             </div>
 
