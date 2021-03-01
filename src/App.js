@@ -8,11 +8,12 @@ import Search from './Components/other/home/Search';
 import Results from "./Components/Pages/Results";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import JobCardUnexpand from "./Components/common/JobCardUnexpand";
 
 function App() {
   return (
     <div className="App">
-        <Results/>
+        <JobCardUnexpand/>
     </div>
   );
 }
