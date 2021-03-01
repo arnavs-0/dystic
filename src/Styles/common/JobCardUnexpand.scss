@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.job-card-container {
+  //border: 1px solid black;
+  width: 40%;
+  padding: 10px 5px;
+}
+
+.job-card-row-1 {
+  display: flex;
+  //border: 1px solid black;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.job-card-row-2, .job-card-info-cards-container {
+  display: flex;
+  margin-top: 20px;
+  height: 50px;
+  align-items: start;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.job-card-job-type{
+  padding: 5px 20px;
+  border-radius: 125px;
+}
+
+.job-card-job-type:nth-child(odd){
+  background: none;
+  border: 1px solid lightgray;
+  color: gray;
+}
+
+.job-card-job-type:nth-child(even){
+  background: #EFB2AF;
+  color: #FFFFFF;
+}
+
+.job-card-u-jt {
+  font-size: 1vmax;
+  color: #1A2E35;
+  margin-bottom: 0;
+}
+
+.fas {
+  -webkit-user-drag: none;
+}
+
+.fa-star {
+  color: #EFB2AF;
+  margin-left: 10px;
+}
+
+.fa-map-marker-alt {
+  color: lightgray;
+  font-size: 30px;
+}
+
+.job-card-detail-btn {
+  background: none;
+  border: 1px solid gray;
+  border-radius: 120px;
+  padding: 5px 35px;
+}
+
+
+.job-card-detail-btn:hover{
+  background: #EFB2AF;
+  color: #FFFFFF;
+  border: none;
+}
+
+.job-card-company-title, .job-card-job-location, .job-card-summary{
+  color: gray;
+}
