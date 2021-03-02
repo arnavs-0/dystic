@@ -30,7 +30,7 @@ function JobCardUnexpand(props) {
                 Job Summary: {props.jobSummary}
             </p>
 
-            <div className="job-card-info-cards-container">
+            <div className="job-card-job-type-container">
                 {
                     props.jobType.map((type)=>(
                         <p className={"job-card-job-type"}>{type}</p>
