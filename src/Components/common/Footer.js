@@ -54,7 +54,7 @@ const Footer = () => {
                                 <a className="text" href="#!">Facebook</a>
                             </li>
                             <li className="list-unstyled">
-                                <a className="text" href="#!">LinekdIn</a>
+                                <a className="text" href="#!">LinkedIn</a>
                             </li>
                         </ul>
                     </Col>
