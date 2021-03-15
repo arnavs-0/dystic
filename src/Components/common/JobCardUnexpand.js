@@ -1,8 +1,8 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import '../../Styles/common/JobCardExpand.scss'
+import '../../Styles/common/JobCardUnexpand.scss'
 
-function JobCardExpand(props) {
+function JobCardUnexpand(props) {
     let stars = Number(props.starCount);
     const starComponents = Array(stars).fill('fas fa-star')
     return (
@@ -41,4 +41,4 @@ function JobCardExpand(props) {
     );
 }
 
-export default JobCardExpand;
+export default JobCardUnexpand;
