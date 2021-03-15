@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
 
+
 // Common Components
 import Footer from "./Components/common/Footer";
 import Contact from './Components/Pages/Contact';
@@ -16,6 +17,7 @@ const jobType = ["Visual Arts", "Part-Time"]
 function App() {
   return (
     <div className="App">
+      <Results></Results>
         <JobCardUnexpand jobTitle="Visual Artist" starCount="4" company={"University of Michigan"} jobLocation={"Dearborn, MI, USA"} jobSummary={jobSummary} jobType={jobType}/>
     </div>
   );
