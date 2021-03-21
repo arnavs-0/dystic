@@ -1,6 +1,8 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import '../../Styles/common/JobCardUnexpand.scss'
+import Skeleton from 'react-loading-skeleton';
+
 
 function JobCardUnexpand(props) {
     let stars = Number(props.starCount);
@@ -9,15 +11,14 @@ function JobCardUnexpand(props) {
         <div className={"job-card-container"}>
             <div className="job-card-row-1">
                 <h1 className="job-card-u-jt mr-5">{props.jobTitle}</h1>
-                <div>
+                <div className = "star-rating">
                     {starComponents.map((cn) => (
                         <i className={cn}/>
                     ))
                     }
                 </div>
                 <button className="job-card-detail-btn">
-                    View Details
-                </button>
+Apply                </button>
             </div>
             <div className="job-card-row-2">
                 <p className="job-card-company-title">{props.company}</p>
