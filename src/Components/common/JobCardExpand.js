@@ -4,6 +4,8 @@ import '../../Styles/common/JobCardExpand.scss'
 import Skeleton from 'react-loading-skeleton';
 import {Link} from "react-router-dom";
 
+import ContentLoader from "react-content-loader"
+
 
 
 export default class JobCardExpand extends React.Component {
@@ -24,13 +26,13 @@ export default class JobCardExpand extends React.Component {
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        items: result
+                        items: result 
                     });
                 },
                 // Note: it's important to handle errors here
                 // instead of a catch() block so that we don't swallow
                 // exceptions from actual bugs in components.
-                (error) => {
+               (error) => {
                     this.setState({
                         isLoaded: true,
                         error
@@ -40,14 +42,38 @@ export default class JobCardExpand extends React.Component {
     }
 
 
-
+ 
     render() {
         const {error, isLoaded, items, stars} = this.state;
         const starComponents = Array(stars).fill('fas fa-star')
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>Loading...</div>;
+            return(
+
+             <ContentLoader 
+    speed={600}
+    height={360}
+    viewBox="0 0 400 160"
+    backgroundColor="#f3f3f3"
+     margin={200}
+    foregroundColor="#ecebeb"
+  
+    
+    >
+    <rect  x="148" y="8" rx="3" ry="3" width="88" height="6" /> 
+    <rect x="148" y="26" rx="3" ry="3" width="52" height="6" /> 
+    <rect x="148" y="56" rx="3" ry="3" width="410" height="6" /> 
+    <rect x="148" y="72" rx="3" ry="3" width="380" height="6" /> 
+    <rect x="148" y="104" rx="3" ry="3" width="300" height="6" /> 
+    <rect x="148" y="120" rx="3" ry="3" width="310" height="6" /> 
+    <rect x="148" y="136" rx="3" ry="3" width="330" height="6" /> 
+    <rect x="148" y="152" rx="3" ry="3" width="350" height="6" /> 
+    <rect x="148" y="168" rx="3" ry="3" width="178" height="6" /> 
+    <rect x="148" y="194" rx="3" ry="3" width="178" height="6" /> 
+    
+   
+  </ContentLoader>)
         } else {
             return (
                 <div>
@@ -72,6 +98,8 @@ export default class JobCardExpand extends React.Component {
                             </div>
                             <p className="job-card-summary">
                                 Job Summary: {item.Summary}
+
+                                
                             </p>
 
                             <div className="job-card-job-type-container">
