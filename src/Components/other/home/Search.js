@@ -50,14 +50,14 @@ export function Search() {
                                         <InputText reference={locationInput} wrapper="wrap-input-search" inputClass="input shadow-none" name="location" input="Location" focus="focus-input" />
                                     </Col>
                                     <Col>
-                                        <div className="container-search-form-btn">
+                                        <div className="container-search-form-btn" style={{zIndex: '5', position: 'relative'}}>
                                             <Button className="search-form-btn shadow-none" onClick={handleSearch}>
                                                 Search
                                             </Button>
                                         </div>
                                     </Col>
                                 </Row>
-                                <div style={{position:"relative", bottom:"180px"}}>
+                                <div style={{position:"relative", bottom:"180px", zIndex: '1'}}>
                                     <div className="ml-2">
                                         <div>
                                             <span className="text"><strong>What type of impairment do you have?</strong></span>
