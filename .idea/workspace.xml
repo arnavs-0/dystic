@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/NavBar.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Components/other/home/Search.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1m4QYK5yIfzQEtIaTaCas4Zybda" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a2s2s\Documents\dystic\dystic\src\assets\img" />
+      <recent name="C:\Users\Andrew Yang\Projects\dystic\src\Styles\Pages\Register" />
+      <recent name="C:\Users\Andrew Yang\Projects\dystic\src\Styles\Pages\Home" />
+      <recent name="C:\Users\Andrew Yang\Projects\dystic\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew Yang\Projects\dystic\src\Styles\Pages\Register" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="" />
+      <created>1608750430345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608750430345</updated>
+      <workItem from="1608750431670" duration="11040000" />
+      <workItem from="1608844895784" duration="2071000" />
+      <workItem from="1609297410205" duration="577000" />
+      <workItem from="1609298022711" duration="598000" />
+      <workItem from="1609376384612" duration="770000" />
+      <workItem from="1614107367928" duration="4434000" />
+      <workItem from="1614287035825" duration="39000" />
+      <workItem from="1614287096163" duration="65000" />
+      <workItem from="1614625522578" duration="4330000" />
+      <workItem from="1614645916327" duration="1303000" />
+      <workItem from="1614885500130" duration="5064000" />
+      <workItem from="1616370796729" duration="2244000" />
+      <workItem from="1616526342173" duration="2864000" />
+      <workItem from="1616532511820" duration="856000" />
+      <workItem from="1616617705141" duration="66000" />
+      <workItem from="1617156675521" duration="2113000" />
+      <workItem from="1617197154546" duration="9785000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added sweetalert2 package">
+      <created>1608750564007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608750564007</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added sweetalert2 package, with custom popup box per registration error.">
+      <created>1608751220804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608751220804</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Svg styling (Semi-responsive)">
+      <created>1608757486357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608757486357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Custom radio button scss and checkbox style.">
+      <created>1608759029193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608759029193</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated checkboxes with checked prop">
+      <created>1608760233262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608760233262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed N/A, replaced with popup error box if N/A and other disabilities are selected at the same time.">
+      <created>1608761088623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608761088623</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Register page scss update">
+      <created>1608844934087</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608844934087</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Node-sass = fixed version + merge conflicts">
+      <created>1608845065434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608845065434</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge conflict">
+      <created>1609376459015</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609376459015</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Package update (Safe)">
+      <created>1614107764354</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614107764354</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Package update (Safe) + A lot messy updates I hate my life">
+      <created>1614110228181</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614110228181</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Button update">
+      <created>1614110694175</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614110694175</updated>
+    </task>
+    <task id="LOCAL-00013" summary="usestate update">
+      <created>1614110830977</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614110830977</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Removed static positioning">
+      <created>1614111001540</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614111001540</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Branch start">
+      <created>1614625820155</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614625820155</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Job-card component progress">
+      <created>1614629069942</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614629069942</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Responsiveness enhancement">
+      <created>1614647217973</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614647217973</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Local files">
+      <created>1614885806910</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614885806910</updated>
+    </task>
+    <task id="LOCAL-00019" summary="what?">
+      <created>1614889404310</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614889404310</updated>
+    </task>
+    <task id="LOCAL-00020" summary="linkedin spelling mistake">
+      <created>1614892333359</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614892333359</updated>
+    </task>
+    <task id="LOCAL-00021" summary="linkedin spelling mistake">
+      <created>1614894626622</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614894626622</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Package update">
+      <created>1616370959956</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616370959956</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Removed .idea from being pushed">
+      <created>1616526449121</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1616526449121</updated>
+    </task>
+    <task id="LOCAL-00024" summary="committing because git is clown">
+      <created>1617156743872</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617156743872</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Pushing bc wtf is going on?">
+      <created>1617158543043</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617158543043</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added sweetalert2 package" />
+    <MESSAGE value="Added sweetalert2 package, with custom popup box per registration error." />
+    <MESSAGE value="Svg styling (Semi-responsive)" />
+    <MESSAGE value="Custom radio button scss and checkbox style." />
+    <MESSAGE value="Updated checkboxes with checked prop" />
+    <MESSAGE value="Removed N/A, replaced with popup error box if N/A and other disabilities are selected at the same time." />
+    <MESSAGE value="Register page scss update" />
+    <MESSAGE value="Node-sass = fixed version + merge conflicts" />
+    <MESSAGE value="Merge conflict" />
+    <MESSAGE value="Package update (Safe)" />
+    <MESSAGE value="Package update (Safe) + A lot messy updates I hate my life" />
+    <MESSAGE value="Button update" />
+    <MESSAGE value="usestate update" />
+    <MESSAGE value="Removed static positioning" />
+    <MESSAGE value="Branch start" />
+    <MESSAGE value="Job-card component progress" />
+    <MESSAGE value="Responsiveness enhancement" />
+    <MESSAGE value="Local file" />
+    <MESSAGE value="Local files" />
+    <MESSAGE value="what?" />
+    <MESSAGE value="linkedin spelling mistake" />
+    <MESSAGE value="Package update" />
+    <MESSAGE value="Removed .idea from being pushed" />
+    <MESSAGE value="committing because git is clown" />
+    <MESSAGE value="Pushing bc wtf is going on?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing bc wtf is going on?" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

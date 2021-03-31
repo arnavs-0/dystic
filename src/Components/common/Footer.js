@@ -51,10 +51,10 @@ const Footer = () => {
                                 <a className="text" href="#!">Instagram</a>
                             </li>
                             <li className="list-unstyled">
-                                <a className="text" href="#!">Facebook</a>
+                                <a className="text" href="#!">Twitter</a>
                             </li>
                             <li className="list-unstyled">
-                                <a className="text" href="#!">LinekdIn</a>
+                                <a className="text" href="#!">LinkedIn</a>
                             </li>
                         </ul>
                     </Col>
