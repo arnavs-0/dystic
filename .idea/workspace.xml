@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/InnerSearchContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/InnerSearchContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/SearchButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/SearchButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Pages/Home/Search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/Search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Pages/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Pages/Contact/Contact.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <workItem from="1616526342173" duration="2864000" />
       <workItem from="1616532511820" duration="856000" />
       <workItem from="1616617705141" duration="66000" />
-      <workItem from="1617156675521" duration="1817000" />
+      <workItem from="1617156675521" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="Added sweetalert2 package">
       <created>1608750564007</created>
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617156743872</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Pushing bc wtf is going on?">
+      <created>1617158543043</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617158543043</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +321,8 @@
     <MESSAGE value="Package update" />
     <MESSAGE value="Removed .idea from being pushed" />
     <MESSAGE value="committing because git is clown" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing because git is clown" />
+    <MESSAGE value="Pushing bc wtf is going on?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing bc wtf is going on?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
