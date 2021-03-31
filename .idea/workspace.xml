@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1616532511820" duration="856000" />
       <workItem from="1616617705141" duration="66000" />
       <workItem from="1617156675521" duration="2113000" />
-      <workItem from="1617197154546" duration="11292000" />
+      <workItem from="1617197154546" duration="12256000" />
     </task>
     <task id="LOCAL-00001" summary="Added sweetalert2 package">
       <created>1608750564007</created>
