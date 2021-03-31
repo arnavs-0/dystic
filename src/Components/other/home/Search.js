@@ -12,7 +12,7 @@ export class Search extends Component {
                 <div className="wrap-search">
                     <Form className="search-form">
                         <Row>
-                            <Col >
+                            <Col>
                                 <InputText  wrapper="wrap-input-search" inputClass="input shadow-none" name="job" input="Job Title" focus="focus-input" />
                             </Col>
                             <Col>
@@ -22,7 +22,7 @@ export class Search extends Component {
                                 <SearchButton />
                             </Col>
                         </Row>
-                        <InnerSearchContainer />
+                        <div style={{position:"relative", bottom:"180px"}}><InnerSearchContainer /></div>
                     </Form>
                 </div>
             </div>

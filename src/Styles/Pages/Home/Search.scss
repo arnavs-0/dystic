@@ -37,6 +37,8 @@
     border-radius: 10px;
     overflow: hidden;
     padding: 15px;
+    padding-left: 30px;
+    height: 300px;
 
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -140,14 +142,20 @@
 
   .search-form-btn {
     min-width: 160px;
-    height: 126px;
-    background-color: #1A2E35;
+    height: 226px;
+    background-color: #1A2E35 !important;
     border-radius: 21px;
     overflow: no-content;
-    
+
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
+    cursor: pointer !important;
+  }
+
+.search-form-btn:hover, .search-form-btn:active{
+  background-color: #1A2E35 !important;
+}
     //line-height: 1;
     //text-transform: uppercase;
     //padding-top: 5px;
@@ -193,7 +201,6 @@
 //      padding: 72px 15px 25px 15px;
 //    }
 //
-  }
   
   
   
