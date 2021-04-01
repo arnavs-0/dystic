@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Button } from 'react-bootstrap'
+import '../../../Styles/Pages/Home/Search.scss'
 
 export default class SeachButton extends Component {
     render() {
