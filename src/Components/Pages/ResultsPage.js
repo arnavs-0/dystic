@@ -14,7 +14,7 @@ function ResultsPage() {
         <NavBar />
       <Container fluid className="h-100">
         <Row className="justify-content-center" style={{overflow: 'hidden'}}>
-            <Col xs={2} md={4} className="col-2 fixed-top one h-100 my-auto mt-5">
+            <Col xs={2} md={4} className="col-2 fixed-top one h-100">
                 <Results/>
             </Col>
             <Col xs={6} md={7} className="offset-sm-5 two mb-5">

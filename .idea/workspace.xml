@@ -4,7 +4,7 @@
     <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Shortened name to prevent wrap">
+      <created>1617307724428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617307724428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -49,15 +57,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Components/Pages/Results.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Shortened name to prevent wrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shortened name to prevent wrap" />
   </component>
 </project>
