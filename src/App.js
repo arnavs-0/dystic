@@ -17,12 +17,12 @@ const jobType = ["Visual Arts", "Part-Time"]
 function App() {
   return (
     <div className="App">
-      <Container>
-        <Row>
-            <Col xs={2} md={4} className="col-2 fixed-top one">
+      <Container fluid className="h-100">
+        <Row className="justify-content-center">
+            <Col xs={2} md={4} className="col-2 fixed-top one h-100 my-auto mt-5">
                 <Results/>
             </Col>
-            <Col xs={6} md={7} className="offset-sm-5 two">
+            <Col xs={6} md={7} className="offset-sm-5 two mb-5">
                 <JobCardExpand />
             </Col>
         </Row>
