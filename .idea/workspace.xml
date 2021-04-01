@@ -4,7 +4,6 @@
     <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617307724428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Margin left increased on left sidebar">
+      <created>1617308389235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617308389235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,6 +65,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Shortened name to prevent wrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortened name to prevent wrap" />
+    <MESSAGE value="Margin left increased on left sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Margin left increased on left sidebar" />
   </component>
 </project>

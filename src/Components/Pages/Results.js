@@ -12,6 +12,8 @@ function Results(props) {
     const [city, setCity] = useState('')
     // Bottom input
     const [typed, setTyped] = useState('')
+    // View type
+    const [viewType, setViewType] = useState("List")
     return (
         <div className="contain-filter" style={{marginTop: "40%", marginLeft: "50px"}}>
             <div className="job-title">
@@ -24,14 +26,18 @@ function Results(props) {
             </div>
 
             <div className="d-flex justify-content-around align-items-center ">
-                <div className="d-flex align-items-center justify-content-around view-container">
+                <div className="d-flex align-items-center justify-content-around view-container pb-2"
+                     style={viewType == "List" ? {borderBottom: "4px solid #F4B2B0"}: {border:"none"}}>
                     <img className="view-icon" src={List}/>
-                    <button className="btn-view">List View</button>
+                    <button className="btn-view"
+                            onClick={()=>( viewType == "City" && setViewType("List")) }>List View</button>
                 </div>
 
-                <div className="d-flex align-items-center justify-content-around view-container">
-                    <img className="view-icon" src={Map}/>
-                    <button className="btn-view">Map View</button>
+                <div className="d-flex align-items-center justify-content-around view-container cursor-pointer pb-2"
+                     style={viewType == "City" ? {borderBottom: "4px solid #F4B2B0"}: {border:"none"}}>
+
+                    <img className="view-icon" src={Map} />
+                    <button className="btn-view" onClick={()=>( viewType == "List" && setViewType("City")) }>Map View</button>
                 </div>
             </div>
 
