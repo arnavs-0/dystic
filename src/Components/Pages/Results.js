@@ -13,7 +13,7 @@ function Results(props) {
     // Bottom input
     const [typed, setTyped] = useState('')
     return (
-        <div className="contain-filter">
+        <div className="contain-filter" style={{marginTop: '200px'}}>
             <div className="job-title">
                 Jobs Title
                 <input placeholder="eg. Artist" className="job-input results-input" onChange={event => setTitle(event.target.value)}/>

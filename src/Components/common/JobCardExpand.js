@@ -21,6 +21,11 @@ export default class JobCardBack extends React.Component {
         };
     }
 
+    shortenName = (str) => {
+        if (str.length <= 40) {return str}
+        return str.slice(0, 40) + "..."
+    }
+
 
     componentDidMount() {
         // fetch("http://127.0.0.1:5000/jobs?jt=software&jl=atlanta&jn=learning")
@@ -88,10 +93,10 @@ export default class JobCardBack extends React.Component {
             return (
               <div>
                 {jobData.map((item) => (
-                  <div className={'job-card-container m-5'}>
+                  <div className={'job-card-container m-5 pl-4'}>
                     <div className={'m-1'}>
                       <div className='job-card-row-1'>
-                        <h1 className='job-card-u-jt mr-5'>{item.JobTitle}</h1>
+                        <h1 className='job-card-u-jt mr-5'>{this.shortenName(item.JobTitle)}</h1>
                         <div class='ratingstars'>
                           {starComponents.map((cn) => (
                             <i className={cn} />
