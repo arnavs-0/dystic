@@ -2,7 +2,6 @@
 
 *{
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
 }
 
 .job-card-container {
@@ -107,9 +106,9 @@
   margin-top: 15px;
 }
 
-.row{
-  overflow: auto;
-}
+//.row{
+//  overflow: auto;
+//}
 .contain-filter {
   margin-bottom: 25px;
   overflow: display;

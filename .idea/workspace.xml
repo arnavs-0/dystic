@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Pages/Home/Results.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/Results.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
