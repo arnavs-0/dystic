@@ -28,7 +28,7 @@ export default class JobCardBack extends React.Component {
 
 
     componentDidMount() {
-        // fetch("http://127.0.0.1:5000/jobs?jt=software&jl=atlanta&jn=learning")
+        // fetch("/jobs?jt=software&jl=michigan&jn=learning")
         //     .then(res => res.json())
         //     .then(
         //         (result) => {
@@ -65,7 +65,7 @@ export default class JobCardBack extends React.Component {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
             return(
-
+                <div>
                 <ContentLoader
                     speed={600}
                     height={360}
@@ -88,11 +88,37 @@ export default class JobCardBack extends React.Component {
                     <rect x="0" y="194" rx="3" ry="3" width="150" height="6" />
 
 
-                </ContentLoader>)
+                </ContentLoader>
+                    <ContentLoader
+                        speed={600}
+                        height={360}
+                        viewBox="0 0 400 160"
+                        backgroundColor="#f3f3f3"
+                        margin={200}
+                        foregroundColor="#ecebeb"
+
+
+                    >
+                        <rect  x="0" y="8" rx="3" ry="3" width="88" height="6" />
+                        <rect x="0" y="26" rx="3" ry="3" width="52" height="6" />
+                        <rect x="0" y="56" rx="3" ry="3" width="230" height="6" />
+                        <rect x="0" y="72" rx="3" ry="3" width="220" height="6" />
+                        <rect x="0" y="104" rx="3" ry="3" width="230" height="6" />
+                        <rect x="0" y="120" rx="3" ry="3" width="230" height="6" />
+                        <rect x="0" y="136" rx="3" ry="3" width="240" height="6" />
+                        <rect x="0" y="152" rx="3" ry="3" width="220" height="6" />
+                        <rect x="0" y="168" rx="3" ry="3" width="150" height="6" />
+                        <rect x="0" y="194" rx="3" ry="3" width="150" height="6" />
+
+
+                    </ContentLoader>
+                </div>
+
+            )
         } else {
             return (
               <div>
-                {jobData.map((item) => (
+                {items.map((item) => (
                   <div className={'job-card-container m-5 pl-4'}>
                     <div className={'m-1'}>
                       <div className='job-card-row-1'>

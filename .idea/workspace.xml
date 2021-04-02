@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Shortened name to prevent wrap">

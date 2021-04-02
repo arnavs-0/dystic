@@ -11,7 +11,7 @@ import Footer from "../common/Footer";
 function ResultsPage() {
       return (
     <div className="ResultsPage">
-        <NavBar />
+        <NavBar  />
       <Container fluid className="h-100">
         <Row className="justify-content-center" style={{overflow: 'hidden'}}>
             <Col xs={2} md={4} className="col-2 fixed-top one h-100">
