@@ -1,12 +1,33 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { Form, Button } from 'react-bootstrap'
 
-export default class ContactContainer extends Component {
-    render() {
+export default function ContactContainer() {
+        const [status, setStatus] = useState("Submit");
+        const handleSubmit = async (e) => {
+            e.preventDefault();
+            setStatus("Sending...");
+            const { name, email, number, message } = e.target.elements;
+            let details = {
+                name: name.value,
+                email: email.value,
+                number: number.value,
+                message: message.value,
+            };
+            let response = await fetch("https://dystic-contact.herokuapp.com/contact", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json;charset=utf-8",
+                },
+                body: JSON.stringify(details),
+            });
+            setStatus("Submit");
+            let result = await response.json();
+            alert(result.status);
+        };
         return (
             <div className="container-contact">
             <div className="wrap-contact">
-                <Form className="contact-form">
+                <Form className="contact-form" onSubmit={handleSubmit}>
                     <span className="contact-form-title">Contact Us</span>
                     <div className="wrap-input">
                         <Form.Group>
@@ -33,13 +54,12 @@ export default class ContactContainer extends Component {
                         </Form.Group>
                     </div>
                     <div className="container-contact-form-btn">
-                        <Button className="contact-form-btn shadow-none">
-                            Submit
+                        <Button type="submit" className="contact-form-btn shadow-none">
+                            {status}
                         </Button>
                     </div>
                 </Form>
             </div>
         </div>
         )
-    }
 }
