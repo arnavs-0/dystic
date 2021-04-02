@@ -10,7 +10,7 @@ export function Search() {
         const [isPhysicalChecked, setPhysicalChecked] = useState(false);
         const [isLearningChecked, setLearningChecked] = useState(false);
         const [isOtherChecked, setOtherChecked] = useState(false);
-        function handleSearch(){
+        async function handleSearch(){
             console.log(jobInput.current.value);
             console.log(locationInput.current.value);
             console.log(isVisionChecked)
