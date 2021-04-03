@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Pages/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/testing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/salary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/Results.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/ResultsPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/common/JobCardExpand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/data/jobData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +41,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Components/Pages/Map.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Components/other/home/Search.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qXzKBCa9KEDPI4Guw4nIt23SWf" />
@@ -56,19 +68,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\a2s2s\Documents\dystic\dystic\src\assets\img" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
