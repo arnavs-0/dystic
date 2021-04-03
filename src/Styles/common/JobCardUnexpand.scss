@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.job-card-container {
+  border-radius: 20px;
+  background: white;
+  box-shadow:  20px 20px 60px #c9c9c9,
+  -20px -20px 60px #ffffff;
+  width: auto;
+  padding: 20px 10px;
+}
+
+.job-card-row-1 {
+  display: flex;
+  //border: 1px solid black;
+  height: 50px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.job-card-row-2 {
+  display: flex;
+  margin-top: 20px;
+  height: 50px;
+  align-items: start;
+  width: 100%;
+  gap: 25%;
+}
+
+.job-card-job-type-container {
+  //border: 1px solid black;
+  display: flex;
+}
+
+.job-card-job-type{
+  padding: 5px 20px;
+  border-radius: 125px;
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: nowrap; /* Chrome */
+  word-wrap: break-word; /* IE */
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+.job-card-job-type:nth-child(odd){
+  background: none;
+  border: 1px solid lightgray;
+  color: gray;
+}
+
+.job-card-job-type:nth-child(even){
+  background: #EFB2AF;
+  color: #FFFFFF;
+}
+
+.job-card-u-jt {
+  font-size: 16px;
+  color: #1A2E35;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.fas {
+  -webkit-user-drag: none;
+}
+
+.fa-star {
+  color: #EFB2AF;
+  margin-left: 10px;
+  display: inline;
+}
+
+.fa-map-marker-alt {
+  color: lightgray;
+  font-size: 30px;
+}
+
+.job-card-detail-btn {
+  background: none;
+  border: 1px solid gray;
+  border-radius: 120px;
+  padding: 5px 35px;
+  white-space: nowrap;
+  margin-left: 10%;
+}
+
+
+.job-card-detail-btn:hover{
+  background: #EFB2AF;
+  color: #FFFFFF;
+  border: none;
+}
+
+.job-card-company-title, .job-card-job-location, .job-card-summary{
+  color: gray;
+}
+
+.job-card-summary {
+  margin-top: 15px;
+}
+
+//.row{
+//  overflow: auto;
+//}
+.contain-filter {
+  margin-bottom: 25px;
+  overflow: display;
+}
+.job-card-row-1 {
+  overflow: hidden;
+}
+.col-2, .fixed-top, .one, .col-md-4 {
+    overflow: hidden;
+}

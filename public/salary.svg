@@ -1,0 +1,10 @@
+<svg id="salary" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <path id="Path_546" data-name="Path 546" d="M21.491,296.784,0,283.23v19.213H43V283.576Z" transform="translate(0 -259.443)" fill="#808b8f"/>
+  <g id="Group_804" data-name="Group 804" transform="translate(5.459)">
+    <path id="Path_547" data-name="Path 547" d="M65,0V23.926L81.052,34.05l16.03-9.845V0ZM81.017,15.369a4.947,4.947,0,0,1,5.165,4.684,4.8,4.8,0,0,1-3.905,4.542v1.944h-2.52V24.595a4.8,4.8,0,0,1-3.905-4.542h2.52a2.7,2.7,0,0,0,5.291,0,2.444,2.444,0,0,0-2.646-2.164A4.948,4.948,0,0,1,75.852,13.2a4.8,4.8,0,0,1,3.905-4.542V6.719h2.52V8.663A4.8,4.8,0,0,1,86.182,13.2h-2.52a2.7,2.7,0,0,0-5.291,0A2.445,2.445,0,0,0,81.017,15.369Z" transform="translate(-65)" fill="#808b8f"/>
+  </g>
+  <g id="Group_805" data-name="Group 805" transform="translate(0 14.923)">
+    <path id="Path_548" data-name="Path 548" d="M2.939,177.691,0,179.952v3.3L2.939,185.1Z" transform="translate(0 -177.691)" fill="#808b8f"/>
+    <path id="Path_549" data-name="Path 549" d="M477,177.691v7.735l2.939-1.805v-3.669Z" transform="translate(-436.939 -177.691)" fill="#808b8f"/>
+  </g>
+</svg>

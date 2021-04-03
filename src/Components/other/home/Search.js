@@ -4,19 +4,21 @@ import '../../../Styles/Pages/Home/Search.scss'
 import InputText from '../../common/InputText'
 import '../../../Styles/other/checks.scss'
 import img from '../../../assets/img/search_img.svg'
+import {Link} from "react-router-dom";
 
 export function Search() {
         const [isVisionChecked, setVisionChecked] = useState(false);
         const [isPhysicalChecked, setPhysicalChecked] = useState(false);
         const [isLearningChecked, setLearningChecked] = useState(false);
         const [isOtherChecked, setOtherChecked] = useState(false);
-        async function handleSearch(){
-            console.log(jobInput.current.value);
-            console.log(locationInput.current.value);
-            console.log(isVisionChecked)
-            console.log(isPhysicalChecked)
-            console.log(isLearningChecked)
-            console.log(isOtherChecked)
+        function handleSearch(){
+            localStorage.clear();
+            localStorage.setItem("jobInput", jobInput.current.value)
+            localStorage.setItem("location", locationInput.current.value)
+            localStorage.setItem("isVision", isVisionChecked.toString())
+            localStorage.setItem("isPhysical", isPhysicalChecked.toString())
+            localStorage.setItem("isLearning", isLearningChecked.toString())
+            localStorage.setItem("isOther", isOtherChecked.toString())
         }
         let jobInput = createRef();
         let locationInput = createRef();
@@ -26,15 +28,15 @@ export function Search() {
                     <Row>
                         <Col>
                         <Row>
-                            <span className="search-form-title text-left">Find your <br/> next opportunity <br/> today.</span>
+                            <span aria-label={"Find your <br/> next opportunity <br/> today."}  aria-required="true" className="search-form-title text-left">Find your <br/> next opportunity <br/> today.</span>
                         </Row>
                         <Row className="mb-3">
                             <Col md="auto">
-                                <span className="search-form-text text-left">Find Jobs According to your needs simply <br/> click on search and choose jobs based on <br/> your interests</span>
+                                <span aria-label={"Find Jobs According to your needs simply <br/> click on search and choose jobs based on <br/> your interests"} className="search-form-text text-left">Find Jobs According to your needs simply <br/> click on search and choose jobs based on <br/> your interests</span>
                             </Col>
                             <Col md="auto">
                                 <div className="wrap-build text-center">
-                                    <span className="search-form-text text-center">or build your resume</span>
+                                    <span aria-label={"or build your resume"}  aria-required="true" className="search-form-text text-center">or build your resume</span>
                                     <Button className="build-btn" onClick={() => window.location.replace('https://dystic-test.web.app/')}>build</Button>
                                 </div>
                             </Col>
@@ -51,9 +53,11 @@ export function Search() {
                                     </Col>
                                     <Col>
                                         <div className="container-search-form-btn" style={{zIndex: '5', position: 'relative'}}>
+                                            <Link to={"/results"}>
                                             <Button className="search-form-btn shadow-none" onClick={handleSearch}>
                                                 Search
                                             </Button>
+                                            </Link>
                                         </div>
                                     </Col>
                                 </Row>
