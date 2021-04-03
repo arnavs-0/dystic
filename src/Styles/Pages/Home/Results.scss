@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .contain-filter {
   background: white;
-  box-shadow:  20px 20px 60px #c9c9c9,
-  -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #c9c9c9, -20px -20px 60px #ffffff;
 
   min-height: 500px;
   width: 20vw;
@@ -30,19 +29,16 @@ body {
   width: 100%;
 }
 
-
 //::placeholder {
 //  font-size: 12px;
 //}
 
 .city-title {
-
   font-size: 20px;
   padding: 10%;
   padding-top: 13%;
   margin-top: -10%;
   font-weight: 450;
-
 }
 
 .city-input {
@@ -50,12 +46,10 @@ body {
   border-width: 0 0 1.5px;
   border-color: #707070;
   width: 100%;
-
 }
 
 .results-input {
   font-size: 12px;
-
 }
 
 .list-title {
@@ -89,24 +83,22 @@ body {
   margin-bottom: -7%;
 }
 
-
 .btn-primary-result,
 .btn-primary-result:hover,
 .btn-primary-result:active,
 .btn-primary-result:visited,
 .btn-primary-result:focus {
   background-color: white !important;
-
 }
 
 .btn-primary-result {
-  color: #4D4940;
+  color: #4d4940;
   border: none;
 }
 
 .btn-view {
   cursor: pointer;
-  color: #1A2E35;
+  color: #1a2e35;
   font-size: 15px;
   background: none;
   border: none;
@@ -114,13 +106,13 @@ body {
 }
 
 .btn-view .active {
-  background: #1A2E35;
-  color: #F4B2B0;
+  background: #1a2e35;
+  color: #f4b2b0;
   border-radius: 30px;
 }
 //
 .btn-primary-result:hover {
-  color: #F4B2B0 !important;
+  color: #f4b2b0 !important;
 }
 
 .btn-result {
@@ -138,21 +130,32 @@ body {
   height: 40px;
   background-color: white;
   color: black;
-  border: 2px solid #F4B2B0;
-
-
+  border: 2px solid #f4b2b0;
 }
 
 .resetbtn {
-  background-color: #F4B2B0;
+  background-color: #f4b2b0;
   color: white;
 }
 
 //small devices
 @media (max-width: 576px) {
-
   .contain-filter {
     width: 80%;
     align: center;
   }
+}
+
+.button-success {
+  background: none;
+  color: blue;
+}
+
+.col-2,
+.fixed-top,
+.one,
+.h-100,
+.col-md-4 {
+  margin-bottom: 50%;
+  margin-right: 55%;
 }

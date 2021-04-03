@@ -118,7 +118,7 @@ export default class JobCardBack extends React.Component {
         } else {
             return (
               <div>
-                {items.map((item) => (
+                {jobData.map((item) => ( 
                   <div className={'job-card-container m-5 pl-4'}>
                     <div className={'m-1'}>
                       <div className='job-card-row-1'>

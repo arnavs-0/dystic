@@ -26,15 +26,15 @@ export function Search() {
                     <Row>
                         <Col>
                         <Row>
-                            <span className="search-form-title text-left">Find your <br/> next opportunity <br/> today.</span>
+                            <span aria-label={"Find your <br/> next opportunity <br/> today."}  aria-required="true" className="search-form-title text-left">Find your <br/> next opportunity <br/> today.</span>
                         </Row>
                         <Row className="mb-3">
                             <Col md="auto">
-                                <span className="search-form-text text-left">Find Jobs According to your needs simply <br/> click on search and choose jobs based on <br/> your interests</span>
+                                <span aria-label={"Find Jobs According to your needs simply <br/> click on search and choose jobs based on <br/> your interests"} className="search-form-text text-left">Find Jobs According to your needs simply <br/> click on search and choose jobs based on <br/> your interests</span>
                             </Col>
                             <Col md="auto">
                                 <div className="wrap-build text-center">
-                                    <span className="search-form-text text-center">or build your resume</span>
+                                    <span aria-label={"or build your resume"}  aria-required="true" className="search-form-text text-center">or build your resume</span>
                                     <Button className="build-btn" onClick={() => window.location.replace('https://dystic-test.web.app/')}>build</Button>
                                 </div>
                             </Col>
