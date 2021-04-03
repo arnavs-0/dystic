@@ -4,6 +4,7 @@ import '../../../Styles/Pages/Home/Search.scss'
 import InputText from '../../common/InputText'
 import '../../../Styles/other/checks.scss'
 import img from '../../../assets/img/search_img.svg'
+import {Link} from "react-router-dom";
 
 export function Search() {
         const [isVisionChecked, setVisionChecked] = useState(false);
@@ -11,12 +12,13 @@ export function Search() {
         const [isLearningChecked, setLearningChecked] = useState(false);
         const [isOtherChecked, setOtherChecked] = useState(false);
         function handleSearch(){
-            console.log(jobInput.current.value);
-            console.log(locationInput.current.value);
-            console.log(isVisionChecked)
-            console.log(isPhysicalChecked)
-            console.log(isLearningChecked)
-            console.log(isOtherChecked)
+            localStorage.clear();
+            localStorage.setItem("jobInput", jobInput.current.value)
+            localStorage.setItem("location", locationInput.current.value)
+            localStorage.setItem("isVision", isVisionChecked.toString())
+            localStorage.setItem("isPhysical", isPhysicalChecked.toString())
+            localStorage.setItem("isLearning", isLearningChecked.toString())
+            localStorage.setItem("isOther", isOtherChecked.toString())
         }
         let jobInput = createRef();
         let locationInput = createRef();
@@ -51,9 +53,11 @@ export function Search() {
                                     </Col>
                                     <Col>
                                         <div className="container-search-form-btn" style={{zIndex: '5', position: 'relative'}}>
+                                            <Link to={"/results"}>
                                             <Button className="search-form-btn shadow-none" onClick={handleSearch}>
                                                 Search
                                             </Button>
+                                            </Link>
                                         </div>
                                     </Col>
                                 </Row>

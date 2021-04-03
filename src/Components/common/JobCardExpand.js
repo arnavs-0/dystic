@@ -22,16 +22,24 @@ export default class JobCardBack extends React.Component {
     }
 
     shortenName = (str) => {
-        if (str.length <= 40) {return str}
-        return str.slice(0, 40) + "..."
+        if (str.length <= 25) {return str}
+        return str.slice(0, 25) + "..."
     }
 
 
     componentDidMount() {
-        // fetch("/jobs?jt=software&jl=michigan&jn=learning")
+        // const job = localStorage.getItem("jobInput")
+        // const location = localStorage.getItem("location")
+        // //const { job } = this.props.location.state
+        // //console.log(job);
+        // // if(localStorage.getItem())
+        // const link = "/jobs?jt=" + job + "&jl=" + location + "&jn=learning"
+        // console.log(link)
+        // fetch(link)
         //     .then(res => res.json())
         //     .then(
         //         (result) => {
+        //             localStorage.setItem("res", result)
         //             this.setState({
         //                 isLoaded: true,
         //                 items: result
@@ -118,7 +126,7 @@ export default class JobCardBack extends React.Component {
         } else {
             return (
               <div>
-                {jobData.map((item) => ( 
+                {jobData.map((item) => (
                   <div className={'job-card-container m-5 pl-4'}>
                     <div className={'m-1'}>
                       <div className='job-card-row-1'>

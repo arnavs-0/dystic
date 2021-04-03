@@ -42,7 +42,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About} />
         <Route exact path='/contact' component={Contact} />
-        <Route exact path="/result/:id" component={ResultsPage} />
+        <Route exact path="/results" component={ResultsPage} render={props => <ResultsPage {...props} />} />
         <Route component={NotFound} />
       </Switch>
     </Router>

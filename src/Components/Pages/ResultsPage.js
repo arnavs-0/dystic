@@ -8,30 +8,55 @@ import NavBar from "../common/NavBar";
 import Footer from "../common/Footer";
 import "../../Styles/Pages/Home/ResultsPage.scss";
 
-function ResultsPage() {
+
+
+class ResultsPage extends React.Component {
+
+  state = {
+    opacity: '1'
+  }
+
+  componentDidMount() {
+    if (typeof window !== "undefined") {
+      window.onscroll = () => {
+        let currentScrollPos = window.pageYOffset;
+        let maxScroll = document.body.scrollHeight - window.innerHeight;
+        console.log(maxScroll)
+        let maxmaxScroll =  maxScroll - 500
+        if (currentScrollPos > maxmaxScroll) {
+          this.setState({ opacity: "0" })
+          // console.log(currentScrollPos)
+        } else {
+          this.setState({ opacity: "1" })
+        }
+      }
+    }
+  }
+
+  render() {
+
       return (
-        <div className="ResultsPage">
+        <div>
+        <div className='ResultsPage'>
           <NavBar />
-          <Container fluid className="h-100">
+          <Container fluid className='h-100'>
             <Row
-              className="justify-content-center"
-              style={{ overflow: "hidden" }}
+              className='justify-lg-content-start'
+              style={{ overflow: 'hidden' }}
             >
-              <Col
-                xs={2}
-                md={4}
-                className="col-2 fixed-top one h-100"
-              >
+              <Col xs={2} md={4} className='col-2 fixed-top' style={{opacity: `${this.state.opacity}`}}>
                 <Results />
               </Col>
-              <Col xs={6} md={7} className="offset-sm-5 two mb-5">
+              <Col xs={6} md={7} className='offset-sm-5 two mb-5'>
                 <JobCardExpand />
               </Col>
             </Row>
           </Container>
-          <Footer />
+          <Footer  className="sticky" />
+        </div>
         </div>
       );
+  }
 }
 
-export default React.memo(ResultsPage);
+export default ResultsPage;
