@@ -9,7 +9,9 @@
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +60,39 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Shortened name to prevent wrap">
       <created>1617307724428</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="" />
+      <created>1608750430345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608750430345</updated>
+      <workItem from="1608750431670" duration="11040000" />
+      <workItem from="1608844895784" duration="2071000" />
+      <workItem from="1609297410205" duration="577000" />
+      <workItem from="1609298022711" duration="598000" />
+      <workItem from="1609376384612" duration="770000" />
+      <workItem from="1614107367928" duration="4434000" />
+      <workItem from="1614287035825" duration="39000" />
+      <workItem from="1614287096163" duration="65000" />
+      <workItem from="1614625522578" duration="4330000" />
+      <workItem from="1614645916327" duration="1303000" />
+      <workItem from="1614885500130" duration="5064000" />
+      <workItem from="1616370796729" duration="2244000" />
+      <workItem from="1616526342173" duration="2864000" />
+      <workItem from="1616532511820" duration="856000" />
+      <workItem from="1616617705141" duration="66000" />
+      <workItem from="1617156675521" duration="2113000" />
+      <workItem from="1617197154546" duration="12256000" />
+      <workItem from="1617307623989" duration="3615000" />
+      <workItem from="1617320435899" duration="1509000" />
+      <workItem from="1617324009602" duration="1213000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added sweetalert2 package">
+      <created>1608750564007</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
