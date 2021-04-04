@@ -4,8 +4,6 @@
     <list default="true" id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/salary.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/Results.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/ResultsPage.scss" afterDir="false" />
@@ -19,7 +17,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
@@ -42,6 +44,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Components/other/home/Search.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/Pages/Map.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qXzKBCa9KEDPI4Guw4nIt23SWf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,14 +75,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="" />
+      <changelist id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="" />
       <created>1617240666518</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617240666518</updated>
       <workItem from="1617240677523" duration="247000" />
       <workItem from="1617240929868" duration="612000" />
-      <workItem from="1617282036346" duration="9855000" />
+      <workItem from="1617282036346" duration="10526000" />
+      <workItem from="1617459360364" duration="594000" />
     </task>
     <servers />
   </component>

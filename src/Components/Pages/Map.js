@@ -28,6 +28,7 @@ import { Marker, GoogleMap, useJsApiLoader, OverlayView } from '@react-google-ma
 import { Button, Container } from 'react-bootstrap'
 import '../../Styles/Pages/Map.scss'
 import Pin from '../../assets/img/pin.svg'
+import Geocode from "react-geocode";
 import testing from '../../assets/testing.json'
 
 const containerStyle = {
@@ -38,8 +39,8 @@ const containerStyle = {
 
 
 const position = {
-    lat: 42.2780,
-    lng: -83.7382
+    lat: 37.0902,
+    lng: -95.7129
 }
 
 const onLoading = marker => {
@@ -51,15 +52,18 @@ const onLoading = marker => {
 function Map() {
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        // googleMapsApiKey: "AIzaSyA-XZEgzbTFdr3hw7xBqpo7S_2nOxmTDng"
+        googleMapsApiKey: "AIzaSyA-XZEgzbTFdr3hw7xBqpo7S_2nOxmTDng"
     })
 
     const [map, setMap] = React.useState(null)
     const [selectedCenter, setSelectedCenter] = React.useState(null);
     const [center, setCenter] =  React.useState({
-        lat: 0,
-        lng: -180
+        lat: 42.2780,
+        lng: -83.7382
     })
+    const [zoom, setZoom] = React.useState(1)
+    const [origLat, setOrigLat] = React.useState('')
+    const [origLon, setOrigLon] = React.useState('')
     const [info, setInfo] = React.useState(null)
 
     const onLoad = React.useCallback(function callback(map) {
@@ -86,32 +90,38 @@ function Map() {
         border: '1px solid #ccc',
         padding: 15
     };
-    const data = [
-        {
-            name: "asdfsadf",
-            location: [37.556547032646, 37.556547032646],
-            state: "Turkey"
-        },
-        {
-            name: "Visual Artist",
-            location: [
-                42.2780,
-                -83.7382
-            ],
-            state: "University of Michigan"
-        }
-        ///...
-    ]
+    const data = localStorage.getItem("res")
+    let datas = JSON.parse(data)
+    //
+    // function handleClick() {
+    //     Geocode.setApiKey("AIzaSyA-XZEgzbTFdr3hw7xBqpo7S_2nOxmTDng");
+    //     Geocode.enableDebug();
+    //     let city  = localStorage.getItem("item")
+    //     Geocode.fromAddress(city).then(
+    //         (response) => {
+    //             const { lat, lng } = response.results[0].geometry.location;
+    //             const json = '{"lat":' + lat + ', "lng":' + lng + '}';
+    //             console.log(json)
+    //             return JSON.parse(json)
+    //
+    //         },
+    //         (error) => {
+    //             console.error(error);
+    //         }
+    //     );
+    // }
+
 
     return isLoaded ? (
             <GoogleMap
                 mapContainerStyle={containerStyle}
-                center={selectedCenter ? selectedCenter : center}
-                zoom={10}
+                center={selectedCenter ? selectedCenter: position}
+                defaultCenter={position}
+                zoom={5}
                 onLoad={onLoad}
                 onUnmount={onUnmount}
             >
-                {testing.map((item, index) => (
+                {datas.map((item, index) => (
                 <div>
                 {!selectedCenter && (
                     <Marker
@@ -133,6 +143,7 @@ function Map() {
                                 lat: item.LatLng[0],
                                 lng: item.LatLng[1]
                             });
+                            setZoom(15)
                             console.log(info)
                         }}
                     />)} : <></>}

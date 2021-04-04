@@ -28,34 +28,52 @@ export default class JobCardBack extends React.Component {
 
 
     componentDidMount() {
-        // const job = localStorage.getItem("jobInput")
-        // const location = localStorage.getItem("location")
-        // //const { job } = this.props.location.state
-        // //console.log(job);
-        // // if(localStorage.getItem())
-        // const link = "/jobs?jt=" + job + "&jl=" + location + "&jn=learning"
-        // console.log(link)
-        // fetch(link)
-        //     .then(res => res.json())
-        //     .then(
-        //         (result) => {
-        //             localStorage.setItem("res", result)
-        //             this.setState({
-        //                 isLoaded: true,
-        //                 items: result
-        //             });
-        //         },
-        //         // Note: it's important to handle errors here
-        //         // instead of a catch() block so that we don't swallow
-        //         // exceptions from actual bugs in components.
-        //         (error) => {
-        //             this.setState({
-        //                 isLoaded: true,
-        //                 error
-        //             });
-        //         }
-        //     )
-        this.setState({isLoaded: true})
+        const job = localStorage.getItem("jobInput")
+        const location = localStorage.getItem("location")
+        //const { job } = this.props.location.state
+        //console.log(job);
+
+        if(localStorage.getItem("res") == null){
+            let filter
+            if (localStorage.getItem("isVision") === "true" || localStorage.getItem("isPhysical") === "true"){
+                filter = "physical"
+            } else if (localStorage.getItem("isLearning") === "true"){
+                filter = "learning";
+            } else {
+                filter = "mental";
+            }
+            const link = "/jobs?jt=" + job + "&jl=" + location + "&jn=" + filter
+            console.log(link)
+            fetch(link)
+                .then(res => res.json())
+                .then(
+                    (result) => {
+                        localStorage.setItem("res", JSON.stringify(result))
+                        this.setState({
+                            isLoaded: true,
+                            items: result
+                        });
+                    },
+                    // Note: it's important to handle errors here
+                    // instead of a catch() block so that we don't swallow
+                    // exceptions from actual bugs in components.
+                    (error) => {
+                        this.setState({
+                            isLoaded: true,
+                            error
+                        });
+                    }
+                )
+        }
+        else {
+            let res = localStorage.getItem("res")
+            let results = JSON.parse(res)
+            this.setState({
+                isLoaded: true,
+                items: results
+            })
+        }
+       //this.setState({isLoaded: true})
     }
 
     render() {
@@ -126,7 +144,7 @@ export default class JobCardBack extends React.Component {
         } else {
             return (
               <div>
-                {jobData.map((item) => (
+                {items.map((item) => (
                   <div className={'job-card-container m-5 pl-4'}>
                     <div className={'m-1'}>
                       <div className='job-card-row-1'>
