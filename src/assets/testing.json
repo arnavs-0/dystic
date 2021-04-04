@@ -1,0 +1,242 @@
+[
+  {
+    "statusCode":200,
+    "JobTitle":"Software Engineer",
+    "JobUrl":"https://indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0CeE3Wp1M-8tH35RiH3f1Z9bIMggqs9mWwktycFHRXbIWhfDFPO0-8rdL3PtuOhhuJt8fIWpYpSdlYtdc8QnLbRyERhJ0g9SkAw23tDdeU7xJY0bIHD8ZH4qtshEhirg4egIOeouiwkafiae9p5pWMrV4YRIOVXgAzOkYjAcKhkPNk8bf__pub2IV_WodZNFuvZinhVlunViVJaNDp-WvbCkhgDxA2DEB8_SUZxVNnC1wij-f4-5IIf_UjiCzrcVgbDj3AHPwVl5ABI_VKr-c3kH1EzrwnZK3oAwl-MPb_fJyOi4jlR8YZ0eQOD-ED1g3SYvV5LCrwRwHXRWYhaXz5PX8W2Vhc6DkrkkzXrzqOcm9rHWB7i8eykT7PtqKyhWU8gWWasBn8D0sSehNq0NITWbMMg3SKnKb1iWvCk9YGLopfyTpWHUealtdJb_RAFAxA=&p=0&fvj=1&vjs=3",
+    "Company":"Tyler Technologies, Inc.",
+    "Location":"Troy, MI",
+    "Remote":"Temporarily remote",
+    "Summary":"Bachelor\u2019s Degree in Electronic Engg., Comp Sci, or Info Tech and 1 year exp in: Object Oriented Programming, SQL Server, and Powershell.",
+    "PostDate":"30+ days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"$93,184 a year",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Software Developer",
+    "JobUrl":"https://indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0BSdfCWUrsCrDDTfBdzpX_2gIHbF9FpK3s9uBW8b4Ja0IH2Abh7X8XmiXI28ov3UuaGUtvadsu8G1r7-B20jbdM2mnnvm1ndF8XlwEzG684RVCrFOP_iD_4929aiuBzKbtbUKWa-yrl4k8W4EZiS-HfbnCYvgJKVS3qOIlZrWeqNDaY5A4QGP06t87jBflfAROlAAiYd2sb75a6o6MISsMOYhdIbs3M1bq1xtx9FANLIANDMhZ0NXxgty-q55Dc20--EJ19dxmazI2ueJ-qAZpPOWBNpIHb-K3022pbcCcRQLu0zSWzDgryZ9EmvSFngKwFa-sBzuo0OF4GYqaqXnCU9JMSpjLEBqlUIPrQOO58-vIF9rgjiz4GsofZ2IX9MbOnIgNdDlyRj1_gTQh4NBZcQWuayEtd3ggW919KDPYZpZ_hzlAn8dXe&p=1&fvj=1&vjs=3",
+    "Company":"U.S. Medical Management",
+    "Location":"Troy, MI",
+    "Remote":"Temporarily remote",
+    "Summary":"Contribute to software development life-cycle improvements and overall product quality.\nDevelop and version new software application features, reports, and\u2026",
+    "PostDate":"15 days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"$70,000 - $85,000 a year",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Entry Level Software Developer",
+    "JobUrl":"https://indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0ChdE_-3s9UeG5xYsqO3th9AddXeBq2OieSfAM8evhI-HUZpuQaiuzQc33v7SXoh9w3fOChrNSzJcTy_8FRa1fReeWPVBneE_KlwgXb7y7fGoIHaC7p9LpFyfVPGOhmP73OtqFVYY4W1CH9PE73Ryqia1A4FL7r5xQuI8kBJR_ZYaSQh1riVWbMwlL6PU0Kq-bW7gCP30D7F_lyVNStpfYcNg85-1-LCN-DTVLrvUNcjBEMvRwhh6cFZ24En9IxVBRdOivD1yL3gtDY9h1MFveSRvR1S738BnAzmZXj3Xz2PVEnH9_vMGnqo_eDIu0nxej1meUUX3JMEZKGpSwWNl3sFvcl7Min_lrovd-baxXC0qXlI-6FLaHX1HIaHk1N-VGHIs4ydiPP07tskBVtypedNjwUj_jWYOMqqjtFETGj3Q3UFvJFWCv5SPhMdBQpYmA=&p=2&fvj=1&vjs=3",
+    "Company":"Smoothstack",
+    "Location":"United States",
+    "Remote":"Remote",
+    "Summary":"O Basic knowledge of Java, C#, .\nNet, Python, or similar programming languages.\nO Hands-on experience or bachelor\u2019s degree or minor in any of the following:\u2026",
+    "PostDate":"30+ days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"$50,000 - $55,000 a year",
+    "LatLng":[
+      39.39870315600007,
+      -99.41461918999994
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Software Support Specialist",
+    "JobUrl":"https://indeed.com/company/EZ--AD-TV/jobs/Software-Support-Specialist-9aa9c2ab7ff4bc66?fccid=5c68307617a49fe2&vjs=3",
+    "Company":"EZ-AD",
+    "Location":"Troy, MI",
+    "Remote":"Temporarily remote",
+    "Summary":"A skilled and experienced Software Support Specialist is needed to provide technical support to users by researching and answering questions, troubleshooting\u2026",
+    "PostDate":"5 days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"$17 - $22 an hour",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Manual Tester",
+    "JobUrl":"https://indeed.com/rc/clk?jk=45d29083e815017c&fccid=9ace5aa4e4fa6ce2&vjs=3",
+    "Company":"iknowvate technologies",
+    "Location":"Auburn Hills, MI",
+    "Remote":"Not Remote",
+    "Summary":"The job will require test creation, test execution, defect management utilizing Jira.\nCW will need SQL Experience, JIRA.",
+    "PostDate":"Today",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.67112000000003,
+      -83.22052999999994
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Software Developer",
+    "JobUrl":"https://indeed.com/rc/clk?jk=a54725158bea5433&fccid=35fa439a19059a40&vjs=3",
+    "Company":"Tyler Technologies, Inc.",
+    "Location":"Troy, MI",
+    "Remote":"Not Remote",
+    "Summary":"Develop and debug scalable platform services.\nResearch the latest web trends and technologies, and make recommendations on how they can be leveraged for future\u2026",
+    "PostDate":"Today",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Computer Operator I",
+    "JobUrl":"https://indeed.com/rc/clk?jk=9dd494edeead43f5&fccid=b4a88725a6a19cd0&vjs=3",
+    "Company":"enGenius Consulting Group",
+    "Location":"Southfield, MI",
+    "Remote":"Not Remote",
+    "Summary":"It is preferable that the successful candidate have general knowledge of software applications, operating IT equipment experience, workstation set-up, and have\u2026",
+    "PostDate":"Today",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.48327000000006,
+      -83.24110999999994
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Jr. Software Dev Engineer",
+    "JobUrl":"https://indeed.com/rc/clk?jk=18faed9182f901fd&fccid=fe2d21eef233e94a&vjs=3",
+    "Company":"Amazon.com Services LLC",
+    "Location":"Detroit, MI",
+    "Remote":"Not Remote",
+    "Summary":"We require our full-time software developers to be able and willing to mentor exceptionally capable young developers.\nAbility to work min 16 hours week.",
+    "PostDate":"30+ days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.33168000000006,
+      -83.04799999999994
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Software Systems Engineer II- Validation 1 1 1",
+    "JobUrl":"https://indeed.com/rc/clk?jk=2ffcb2183a4db527&fccid=67ad207db45982df&vjs=3",
+    "Company":"NSNA",
+    "Location":"Troy, MI",
+    "Remote":"Not Remote",
+    "Summary":"Software Systems Engineer - Validation to work in Troy, Michigan : In the automotive industry, develop stress and stability tests of all software changes and\u2026",
+    "PostDate":"1 day ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Entry Level Front-End Web Developer",
+    "JobUrl":"https://indeed.com/rc/clk?jk=9e818a82c1cc3400&fccid=b1e2e279b419ee43&vjs=3",
+    "Company":"Media Genesis",
+    "Location":"Troy, MI",
+    "Remote":"Not Remote",
+    "Summary":"We seek a talented Entry Level Front End Web Developer.\nThe selected candidate will be required to update and maintain a number of WordPress site plugins and\u2026",
+    "PostDate":"30+ days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Software Engineer",
+    "JobUrl":"https://indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0C2UUPW2tVhfpZrjs__OcwgoZzfO93HUtBUcPCT5kT-Ff-9gmsqs8yn90Cp2CBaFG2ttvk6py4UxKGYosiFZbVrMXh_PB3AOmqx5FRZyYrcRJ4RkKU83jFeRZFPwksNPqpvL4dCBztFIZ_KsNlNyasFr6nStlGbwEK3YOj91xe9iqSLjHykK0HE4fuurPFQ-CWksz5rkvZITp0pyt0ieLIoEGhUWSjIUGo2MqGku5M1DDKqW6FoR_jVU9WLL5z-MYcIS0njAmWiyRuCDCQPqWafGh9SKkQhNXbNb6D68MLUCTy8k-9-j7rEUcd82SHDkSwnxRbFJcqE21njSkgfq7SOqvmvnAYRRcYbehNWSTzc_MSvwhvP5lh9NZVx0nP9Yz0t-7sQZSMQdic0IucqG9vqvjbjtIe_PYBS9QcLw5bzmtdWHvim6jTx&p=10&fvj=1&vjs=3",
+    "Company":"People Tech Group",
+    "Location":"Warren, MI",
+    "Remote":"Temporarily remote",
+    "Summary":"1-2 years of work experience in any programming languages OR Strong Internship experience.",
+    "PostDate":"2 days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"From $50,000 a year",
+    "LatLng":[
+      42.47754000000003,
+      -83.02769999999998
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Tools Software Engineer, Active Safety",
+    "JobUrl":"https://indeed.com/rc/clk?jk=006286e9f00ece79&fccid=8d390ab1843cb8bd&vjs=3",
+    "Company":"Aptiv",
+    "Location":"Troy, MI",
+    "Remote":"Not Remote",
+    "Summary":"Daily tasks center around tool software development \u2013 bug fixes and new feature creation \u2013 and testing.\nResponsible for developing data recording, visualization\u2026",
+    "PostDate":"Today",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Strategic Student Program: Software Development Internship (Remote; LCS - SISW-PLM)",
+    "JobUrl":"https://indeed.com/rc/clk?jk=7e26ffc4683774c0&fccid=3b89b9ec324f96c8&vjs=3",
+    "Company":"Siemens",
+    "Location":"Troy, MI",
+    "Remote":"Remote",
+    "Summary":"Experience using CAD/CAM/PLM software preferred.\nDesigning and developing new software features for the Teamcenter Visualization suite of products.",
+    "PostDate":"1 day ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"NET Software Developer",
+    "JobUrl":"https://indeed.com/rc/clk?jk=5019fdd489cd6597&fccid=3e6905c12cee1d1b&vjs=3",
+    "Company":"Titan solutions",
+    "Location":"Madison Heights, MI",
+    "Remote":"Not Remote",
+    "Summary":"NET Framework, MVC, and Twitter Bootstrap is a plus.\nA good understanding of computer hardware, networking, and devices.\nNET Excel/PDF reporting components.",
+    "PostDate":"13 days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.51998000000003,
+      -83.10940999999997
+    ]
+  },
+  {
+    "statusCode":200,
+    "JobTitle":"Software Architect",
+    "JobUrl":"https://indeed.com/rc/clk?jk=cb24ceae0e168055&fccid=5f47a2ab055b5475&vjs=3",
+    "Company":"Orlans PC",
+    "Location":"Troy, MI",
+    "Remote":"Not Remote",
+    "Summary":"Ensure software security by developing programs to actively monitor the sharing of private information.\nREQ: Master\u2019s Degree or foreign educational equivalent\u2026",
+    "PostDate":"5 days ago",
+    "ExtractDate":"2021-04-01",
+    "Salary":"",
+    "LatLng":[
+      42.562380000000076,
+      -83.15407999999996
+    ]
+  }
+]

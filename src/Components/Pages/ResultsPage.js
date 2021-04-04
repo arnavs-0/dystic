@@ -21,7 +21,6 @@ class ResultsPage extends React.Component {
       window.onscroll = () => {
         let currentScrollPos = window.pageYOffset;
         let maxScroll = document.body.scrollHeight - window.innerHeight;
-        console.log(maxScroll)
         let maxmaxScroll =  maxScroll - 500
         if (currentScrollPos > maxmaxScroll) {
           this.setState({ opacity: "0" })
@@ -45,7 +44,7 @@ class ResultsPage extends React.Component {
               style={{ overflow: 'hidden' }}
             >
               <Col xs={2} md={4} className='col-2 fixed-top' style={{opacity: `${this.state.opacity}`}}>
-                <Results />
+                <Results marginTop={{marginTop: '40%'}}  default={"List"} />
               </Col>
               <Col xs={6} md={7} className='offset-sm-5 two mb-5'>
                 <JobCardExpand />

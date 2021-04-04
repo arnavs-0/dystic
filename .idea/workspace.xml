@@ -1,41 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/salary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/Results.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/ResultsPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/common/JobCardExpand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/data/jobData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Components/other/home/Search.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/Pages/Map.js" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectId" id="1qcD6hIfGXgGlIZV13RqibN4PfL" />
+  <component name="ProjectId" id="1qXzKBCa9KEDPI4Guw4nIt23SWf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -45,75 +56,35 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a2s2s\Documents\dystic\dystic\src\assets\img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Shortened name to prevent wrap">
-      <created>1617307724428</created>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bfcaa10a-8bb9-4efd-8692-599d12f75c9e" name="Default Changelist" comment="" />
-      <created>1608750430345</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1608750430345</updated>
-      <workItem from="1608750431670" duration="11040000" />
-      <workItem from="1608844895784" duration="2071000" />
-      <workItem from="1609297410205" duration="577000" />
-      <workItem from="1609298022711" duration="598000" />
-      <workItem from="1609376384612" duration="770000" />
-      <workItem from="1614107367928" duration="4434000" />
-      <workItem from="1614287035825" duration="39000" />
-      <workItem from="1614287096163" duration="65000" />
-      <workItem from="1614625522578" duration="4330000" />
-      <workItem from="1614645916327" duration="1303000" />
-      <workItem from="1614885500130" duration="5064000" />
-      <workItem from="1616370796729" duration="2244000" />
-      <workItem from="1616526342173" duration="2864000" />
-      <workItem from="1616532511820" duration="856000" />
-      <workItem from="1616617705141" duration="66000" />
-      <workItem from="1617156675521" duration="2113000" />
-      <workItem from="1617197154546" duration="12256000" />
-      <workItem from="1617307623989" duration="3615000" />
-      <workItem from="1617320435899" duration="1509000" />
-      <workItem from="1617324009602" duration="1213000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added sweetalert2 package">
-      <created>1608750564007</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1617307724428</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Margin left increased on left sidebar">
-      <created>1617308389235</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1617308389235</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="" />
-      <created>1617369812425</created>
+      <created>1617240666518</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617369812425</updated>
-      <workItem from="1617369817594" duration="10171000" />
+      <updated>1617240666518</updated>
+      <workItem from="1617240677523" duration="247000" />
+      <workItem from="1617240929868" duration="612000" />
+      <workItem from="1617282036346" duration="10526000" />
+      <workItem from="1617459360364" duration="594000" />
     </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,10 +101,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Shortened name to prevent wrap" />
-    <MESSAGE value="Margin left increased on left sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Margin left increased on left sidebar" />
   </component>
 </project>

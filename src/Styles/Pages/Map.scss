@@ -1,0 +1,57 @@
+.wrap-map {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px 15px 15px 15px;
+  height: auto;
+  width: auto;
+
+  box-shadow: -6px 2px 5px -70px rgba(0,0,0,0.09);
+  -webkit-box-shadow: -6px 2px 5px -70px rgba(0,0,0,0.09);
+  -moz-box-shadow: -6px 2px 5px -70px rgba(0,0,0,0.09);
+}
+
+.map-text-light {
+  vertical-align: top;
+  display: block;
+  position: relative;
+  font-size: 10px;
+  font-family: 'Poppins';
+  font-weight: normal;
+  color: #4f4c48;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.map-text {
+  vertical-align: top;
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: normal;
+  color: #4D4940;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.map-btn {
+  min-width: 100px;
+  background-color: #F4B2B0 !important;
+  border-radius: 21px;
+  overflow: no-content;
+  font-size: small;
+  border: none !important;
+
+  font-family: 'Poppins', sans-serif;
+}
+.x-btn {
+  background-color: #F4B2B0 !important;
+  overflow: no-content;
+  font-size: xx-small;
+  stroke: white;
+
+  font-family: 'Poppins', sans-serif;
+}

@@ -5,6 +5,7 @@ import InputText from '../../common/InputText'
 import '../../../Styles/other/checks.scss'
 import img from '../../../assets/img/search_img.svg'
 import {Link} from "react-router-dom";
+import Geocode from "react-geocode";
 
 export function Search() {
         const [isVisionChecked, setVisionChecked] = useState(false);
