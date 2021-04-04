@@ -4,7 +4,6 @@
     <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/common/ResumeInsightModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ResumeInsightModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/common/ResumeInsightModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/common/ResumeInsightModal.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617400395632</updated>
       <workItem from="1617400399454" duration="1347000" />
-      <workItem from="1617550299714" duration="3799000" />
+      <workItem from="1617550299714" duration="3913000" />
     </task>
     <task id="LOCAL-00004" summary="Parse complete">
       <created>1617553820052</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617553820052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Style update">
+      <created>1617554152050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617554152050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +138,7 @@
     <MESSAGE value="Margin left increased on left sidebar" />
     <MESSAGE value="Added view switcher" />
     <MESSAGE value="Parse complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parse complete" />
+    <MESSAGE value="Style update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style update" />
   </component>
 </project>

@@ -21,7 +21,7 @@ function ResumeInsightModal(props) {
             value.concepts.map(v => {
                 // concepts.push({type: v.text, level: v.relevance*100})
                 // console.log({type: v.text, level: v.relevance*100})
-                setConcepts(prev => [...prev, {type: v.text, level: Math.round(v.relevance*100)}])
+                setConcepts(prev => [...prev, {type: v.text, level: (v.relevance*100).toFixed(4)}])
             })
             // value.emotion.document.emotion.map(v=>{
             //     setEmotions(prev => [...prev, {type: v.text, level: Math.round(v.relevance*100)}])
