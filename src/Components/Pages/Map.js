@@ -1,34 +1,8 @@
-// import React from 'react';
-// import Geocode from "react-geocode";
-//
-// export default function Map() {
-//
-//     function handleClick() {
-//         Geocode.setApiKey("AIzaSyA-XZEgzbTFdr3hw7xBqpo7S_2nOxmTDng");
-//         Geocode.enableDebug();
-//
-//         Geocode.fromAddress("Kalamazoo, MI").then(
-//             (response) => {
-//                 const { lat, lng } = response.results[0].geometry.location;
-//                 console.log(lat, lng);
-//             },
-//             (error) => {
-//                 console.error(error);
-//             }
-//         );
-//     }
-//     return (
-//         <button onClick={handleClick}>
-//             Hello
-//         </button>
-//     )
-// }
 import React from 'react';
 import { Marker, GoogleMap, useJsApiLoader, OverlayView } from '@react-google-maps/api';
 import { Button, Container } from 'react-bootstrap'
 import '../../Styles/Pages/Map.scss'
 import Pin from '../../assets/img/pin.svg'
-import Geocode from "react-geocode";
 import testing from '../../assets/testing.json'
 
 const containerStyle = {
@@ -62,8 +36,6 @@ function Map() {
         lng: -83.7382
     })
     const [zoom, setZoom] = React.useState(1)
-    const [origLat, setOrigLat] = React.useState('')
-    const [origLon, setOrigLon] = React.useState('')
     const [info, setInfo] = React.useState(null)
 
     const onLoad = React.useCallback(function callback(map) {
@@ -85,38 +57,14 @@ function Map() {
         scaledSize: {width: 25, height: 45},
     }
 
-    const divStyle = {
-        background: 'white',
-        border: '1px solid #ccc',
-        padding: 15
-    };
     const data = localStorage.getItem("res")
     let datas = JSON.parse(data)
-    //
-    // function handleClick() {
-    //     Geocode.setApiKey("AIzaSyA-XZEgzbTFdr3hw7xBqpo7S_2nOxmTDng");
-    //     Geocode.enableDebug();
-    //     let city  = localStorage.getItem("item")
-    //     Geocode.fromAddress(city).then(
-    //         (response) => {
-    //             const { lat, lng } = response.results[0].geometry.location;
-    //             const json = '{"lat":' + lat + ', "lng":' + lng + '}';
-    //             console.log(json)
-    //             return JSON.parse(json)
-    //
-    //         },
-    //         (error) => {
-    //             console.error(error);
-    //         }
-    //     );
-    // }
 
 
     return isLoaded ? (
             <GoogleMap
                 mapContainerStyle={containerStyle}
-                center={selectedCenter ? selectedCenter: position}
-                defaultCenter={position}
+                center={center ? center: position}
                 zoom={5}
                 onLoad={onLoad}
                 onUnmount={onUnmount}

@@ -42,7 +42,7 @@ export default class JobCardBack extends React.Component {
             } else {
                 filter = "mental";
             }
-            const link = "/jobs?jt=" + job + "&jl=" + location + "&jn=" + filter
+            const link = "http://127.0.0.1:5000/jobs?jt=" + job + "&jl=" + location + "&jn=" + filter
             console.log(link)
             fetch(link)
                 .then(res => res.json())

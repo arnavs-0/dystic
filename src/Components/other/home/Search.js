@@ -6,6 +6,7 @@ import '../../../Styles/other/checks.scss'
 import img from '../../../assets/img/search_img.svg'
 import {Link} from "react-router-dom";
 import Geocode from "react-geocode";
+import {toast, ToastContainer} from "react-toastify";
 
 export function Search() {
         const [isVisionChecked, setVisionChecked] = useState(false);
@@ -13,13 +14,55 @@ export function Search() {
         const [isLearningChecked, setLearningChecked] = useState(false);
         const [isOtherChecked, setOtherChecked] = useState(false);
         function handleSearch(){
-            localStorage.clear();
-            localStorage.setItem("jobInput", jobInput.current.value)
-            localStorage.setItem("location", locationInput.current.value)
-            localStorage.setItem("isVision", isVisionChecked.toString())
-            localStorage.setItem("isPhysical", isPhysicalChecked.toString())
-            localStorage.setItem("isLearning", isLearningChecked.toString())
-            localStorage.setItem("isOther", isOtherChecked.toString())
+            if (jobInput.current.value === ''){
+                toast.error('Job Title Is Required', {
+                    position: "bottom-left",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            } else if (locationInput.current.value === ''){
+                toast.error('A City or State is required',{
+                    position: "bottom-left",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                });
+            } else if (!isVisionChecked && !isPhysicalChecked && !isLearningChecked && !isOtherChecked){
+                toast.error('At least one selected item is required',{
+                    position: "bottom-left",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            } else {
+                toast('Loading...', {
+                    position: "bottom-left",
+                    autoClose: 5000,
+                    hideProgressBar: true,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+                localStorage.clear();
+                localStorage.setItem("jobInput", jobInput.current.value)
+                localStorage.setItem("location", locationInput.current.value)
+                localStorage.setItem("isVision", isVisionChecked.toString())
+                localStorage.setItem("isPhysical", isPhysicalChecked.toString())
+                localStorage.setItem("isLearning", isLearningChecked.toString())
+                localStorage.setItem("isOther", isOtherChecked.toString())
+                window.location.href = "/results";
+            }
         }
         let jobInput = createRef();
         let locationInput = createRef();
@@ -38,7 +81,7 @@ export function Search() {
                             <Col md="auto">
                                 <div className="wrap-build text-center">
                                     <span aria-label={"or build your resume"}  aria-required="true" className="search-form-text text-center">or build your resume</span>
-                                    <Button className="build-btn" onClick={() => window.location.replace('https://dystic-test.web.app/')}>build</Button>
+                                    <Button className="build-btn" onClick={() => window.location.replace('https://resume-dystic.web.app/')}>build</Button>
                                 </div>
                             </Col>
                         </Row>
@@ -50,15 +93,15 @@ export function Search() {
                                         <InputText  reference={jobInput}  wrapper="wrap-input-search" inputClass="input shadow-none" name="job" input="Job Title" focus="focus-input" />
                                     </Col>
                                     <Col>
-                                        <InputText reference={locationInput} wrapper="wrap-input-search" inputClass="input shadow-none" name="location" input="Location" focus="focus-input" />
+                                        <InputText reference={locationInput} wrapper="wrap-input-search" inputClass="input shadow-none" name="location" input="City or State" focus="focus-input" />
                                     </Col>
                                     <Col>
                                         <div className="container-search-form-btn" style={{zIndex: '5', position: 'relative'}}>
-                                            <Link to={"/results"}>
+                                            {/*<Link to={"/results"}>*/}
                                             <Button className="search-form-btn shadow-none" onClick={handleSearch}>
                                                 Search
                                             </Button>
-                                            </Link>
+                                            {/*</Link>*/}
                                         </div>
                                     </Col>
                                 </Row>
