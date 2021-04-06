@@ -6,9 +6,9 @@ import Search from "../other/home/Search";
 function Home() {
     return (
         <div>
-            <NavBar home="nav-link active" />
-            <Search />
-            <Footer />
+            <NavBar home="nav-link active"/>
+            <Search/>
+            <Footer/>
         </div>
     )
 }

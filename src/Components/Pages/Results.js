@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import '../../Styles/Pages/Home/Results.scss'
 import List from '../../images/list.svg'
 import Map from '../../images/pin.svg'
-import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton'
 import {Link} from "react-router-dom";
 
 function Results(props) {
@@ -20,28 +18,35 @@ function Results(props) {
         <div className="contain-filter ml-5" style={props.marginTop}>
             <div className="job-title">
                 Jobs Title
-                <input placeholder={title} className="job-input results-input" onChange={event => setTitle(event.target.value)}/>
+                <input placeholder={title} className="job-input results-input"
+                       onChange={event => setTitle(event.target.value)}/>
             </div>
             <div className="city-title">
                 City
-                <input placeholder={city} className="city-input results-input" onChange={event => setCity(event.target.value)}/>
+                <input placeholder={city} className="city-input results-input"
+                       onChange={event => setCity(event.target.value)}/>
             </div>
 
             <div className="d-flex justify-content-around align-items-center ">
                 <div className="d-flex align-items-center justify-content-around view-container pb-2"
-                     style={viewType == "List" ? {borderBottom: "4px solid #F4B2B0"}: {border:"none"}}>
+                     style={viewType == "List" ? {borderBottom: "4px solid #F4B2B0"} : {border: "none"}}>
                     <img className="view-icon" src={List}/>
                     <Link to={'/results'}>
-                    <button className="btn-view"
-                            onClick={()=>( viewType == "City" && setViewType("List")) }>List View</button></Link>
+                        <button className="btn-view"
+                                onClick={() => (viewType == "City" && setViewType("List"))}>List View
+                        </button>
+                    </Link>
                 </div>
 
                 <div className="d-flex align-items-center justify-content-around view-container cursor-pointer pb-2"
-                     style={viewType == "City" ? {borderBottom: "4px solid #F4B2B0"}: {border:"none"}}>
+                     style={viewType == "City" ? {borderBottom: "4px solid #F4B2B0"} : {border: "none"}}>
 
-                    <img className="view-icon" src={Map} />
+                    <img className="view-icon" src={Map}/>
                     <Link to={'/results/map'}>
-                    <button className="btn-view" onClick={()=>( viewType == "List" && setViewType("City")) }>Map View</button></Link>
+                        <button className="btn-view" onClick={() => (viewType == "List" && setViewType("City"))}>Map
+                            View
+                        </button>
+                    </Link>
                 </div>
             </div>
 

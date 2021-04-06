@@ -1,27 +1,24 @@
-import React, { Component } from 'react'
-import { Col, Form, Row } from 'react-bootstrap'
+import React, {Component} from 'react'
 import '../../../Styles/Pages/Home/Search.scss'
 import '../../../Styles/Pages/Home/Radio.scss'
-import InnerSearchContainer from './InnerSearchContainer'
-import InputText from '../../common/InputText'
 
 export class FilterResult extends Component {
     render() {
         return (
-           <div>
-               <container class ="jobs-title">
-               <h3>Jobs Title</h3>
-                   
-               </container>
-               <container class ="city">
+            <div>
+                <container class="jobs-title">
+                    <h3>Jobs Title</h3>
 
-               </container>
-                <container class ="list-view">
+                </container>
+                <container class="city">
 
-               </container>
+                </container>
+                <container class="list-view">
+
+                </container>
 
 
-           </div>
+            </div>
 
         )
     }

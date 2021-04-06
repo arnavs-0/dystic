@@ -12,9 +12,9 @@ const Footer = () => {
                 <Row>
                     <Col className="md-6">
                         <h1 className="title">dystic</h1>
-                        <h5>
+                        <h2 style={{fontSize: '18px'}}>
                             making job search <br></br>more accessible
-                        </h5>
+                        </h2>
                     </Col>
                     <Col className="md-6">
                         <h5 className="title"><strong>menu</strong></h5>
