@@ -1,71 +1,118 @@
-# dystic
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://dystic.web.app">
+    <img alt="dystic" src="https://media.discordapp.net/attachments/823366296795480075/830850763785633872/logo192.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  dystic 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Making Job Search More Accessible
+</h3>
+<p align="center">
+ dystic is an open source job search platform. This API is an Indeed Scraper to Find Jobs that suit a certain keywords given a condition. Please note that this scraper is used for educational purposes. Please use at your own risk. See License for more details.
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/754861953947795469/830857473111228506/unknown.png?width=1114&height=670">
+</p>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/arnavs-0/dystic-api/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-### `npm start`
+### 🏠 [Homepage](https://github.com/arnavs-0/dystic)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### ✨ [Project Home](https://dystic.web.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### [Learn More about our Project](https://devpost.com/software/dystic)
 
-### `npm test`
+## Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone to the repository and navigate to it
+```sh
+git clone https://github.com/arnavs-0/dystic
+cd dystic
+```
 
-### `npm run build`
+Install required node_modules
+```sh
+yarn add
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+yarn start
+```
+Search for jobs through the homepage, enter your job description, job location, and disibilities. Build a resume here: [Dystic Resume Builder](dystic-test.web.app), contribute to the project here on [GitHub](https://github.com/arnavs-0/dystic-resume)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**Note**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you receive an error while searching for jobs, that generally means there is a captcha blocking the request. As a workaround go to Indeed's website and finish the captcha challenge. Currently, our job search only supports areas within the US.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Plans
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* We hope to support an international search so users outside the US are able to use it
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Find a workaround for the Indeed captcha
 
-## Learn More
+* Implement ML to return jobs suitable for any user rather than using only keywords
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* and more!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Authors
 
-### Code Splitting
+👤 **arnavs-0, andytubeee, Sohil1926, staranger01**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Github: 
+  
+[@arnavs-0](https://github.com/arnavs-0)
+  
+[@andytubeee](https://github.com/andytubeee)
 
-### Analyzing the Bundle Size
+[@Sohil1926](https://github.com/Sohil1926)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[@staranger01](https://github.com/staranger01)
+ 
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues and feature requests are welcome!
+<br />Feel free to check [issues page](https://github.com/arnavs-0/dystic-api/issues). 
 
-### Advanced Configuration
+Contributing Guidelines Here:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if this project helped you!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+Copyright (c) 2021 arnavs-0, andytubeee, Sohil1926, staranger01
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
