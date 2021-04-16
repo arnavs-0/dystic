@@ -44,7 +44,7 @@ Install required node_modules
 yarn add
 ```
 
-## Usage
+## Run it
 
 ```sh
 yarn start
