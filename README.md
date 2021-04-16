@@ -44,7 +44,7 @@ Install required node_modules
 yarn add
 ```
 
-## Run it
+## Usage
 
 ```sh
 yarn start
@@ -65,6 +65,12 @@ If you receive an error while searching for jobs, that generally means there is 
 * Implement ML to return jobs suitable for any user rather than using only keywords
 
 * and more!
+
+## Issues
+
+* Job search not available outside of US
+* Job filters requires machine learning instead of fixed keywords
+* Chatbot is buggy with unknown responses
 
 ## Authors
 
