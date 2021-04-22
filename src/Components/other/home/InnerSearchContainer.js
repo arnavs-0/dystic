@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
-import { Col, Row } from 'react-bootstrap'
-import Checkboxes from '../../common/Checkboxes'
+import React, {Component} from 'react'
+import {Col, Row} from 'react-bootstrap'
 import '../../../Styles/other/checks.scss'
-import SearchButton from './SearchButton'
 
 export default class Check extends Component {
     render() {
@@ -14,30 +12,30 @@ export default class Check extends Component {
                 <Row className="mt-2">
                     <Col>
                         <Row>
-                        <Col md={'auto'}>
-                        <ul>
-                            <li>
-                                <input id="c1" type="checkbox"/>
-                                    <label htmlFor="c1">&nbsp; Vision</label>
-                            </li>
-                            <li>
-                                <input id="c2" type="checkbox"/>
-                                    <label htmlFor="c2">&nbsp; Learning</label>
-                            </li>
-                        </ul>
-                        </Col>
-                        <Col md={'auto'}>
-                            <ul>
-                                <li>
-                                    <input id="c3" type="checkbox"/>
-                                    <label htmlFor="c3">&nbsp; Physical</label>
-                                </li>
-                                <li>
-                                    <input id="c4" type="checkbox"/>
-                                    <label htmlFor="c4">&nbsp; Other</label>
-                                </li>
-                            </ul>
-                        </Col>
+                            <Col md={'auto'}>
+                                <ul>
+                                    <li>
+                                        <input id="c1" type="checkbox"/>
+                                        <label htmlFor="c1">&nbsp; Vision</label>
+                                    </li>
+                                    <li>
+                                        <input id="c2" type="checkbox"/>
+                                        <label htmlFor="c2">&nbsp; Learning</label>
+                                    </li>
+                                </ul>
+                            </Col>
+                            <Col md={'auto'}>
+                                <ul>
+                                    <li>
+                                        <input id="c3" type="checkbox"/>
+                                        <label htmlFor="c3">&nbsp; Physical</label>
+                                    </li>
+                                    <li>
+                                        <input id="c4" type="checkbox"/>
+                                        <label htmlFor="c4">&nbsp; Other</label>
+                                    </li>
+                                </ul>
+                            </Col>
                         </Row>
                     </Col>
                 </Row>

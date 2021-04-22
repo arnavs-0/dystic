@@ -2,30 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/salary.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/Results.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/Pages/Home/ResultsPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/common/JobCardExpand.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/common/JobCardUnexpand.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/data/jobData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Checkboxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Checkboxes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/InputText.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/About/AboutMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/About/AboutMiddle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/About/AboutParagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/About/AboutParagraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/About/AboutTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/About/AboutTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/form/Newsletter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/form/Newsletter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/home/FilterResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResult.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/home/InnerSearchContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/InnerSearchContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/other/home/SearchButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/SearchButton.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +63,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="D:/pifuhd-master/pifuhd-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +79,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="" />
+      <changelist id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="" />
       <created>1617240666518</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -84,6 +88,9 @@
       <workItem from="1617240929868" duration="612000" />
       <workItem from="1617282036346" duration="10526000" />
       <workItem from="1617459360364" duration="594000" />
+      <workItem from="1617666585301" duration="2529000" />
+      <workItem from="1617670932251" duration="687000" />
+      <workItem from="1617723639187" duration="628000" />
     </task>
     <servers />
   </component>

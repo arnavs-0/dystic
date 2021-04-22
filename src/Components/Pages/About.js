@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import '../../Styles/Pages/About/About.scss'
 import NavBar from '../common/NavBar'
 import AboutTop from '../other/About/AboutTop'
@@ -11,10 +11,10 @@ export default class About extends Component {
         return (
             <div>
                 <NavBar about="nav-link active"/>
-                <AboutTop />
-                <AboutMiddle />
-                <AboutParagraph />
-                <Footer />
+                <AboutTop/>
+                <AboutMiddle/>
+                <AboutParagraph/>
+                <Footer/>
             </div>
         );
     }

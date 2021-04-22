@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dystic-test"
+  },
+  "targets": {
+    "dystic-test": {
+      "hosting": {
+        "dystic": [
+          "dystic"
+        ]
+      }
+    }
+  }
+}
