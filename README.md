@@ -1,71 +1,102 @@
-# dystic
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://dystic.web.app">
+    <img alt="dystic" src="https://media.discordapp.net/attachments/823366296795480075/830850763785633872/logo192.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  dystic 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Making Job Search More Accessible
+</h3>
+<p align="center">
+ dystic is an open source job search platform. This repository holds the frontend of the website.
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/754861953947795469/830857473111228506/unknown.png?width=1114&height=670">
+</p>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/arnavs-0/dystic-api/blob/main/LICENSE" target="_blank">
+    <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
+  </a>
+</p>
 
-### `npm start`
+### 🏠 [Homepage](https://github.com/arnavs-0/dystic)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### ✨ [Project Home](https://dystic.web.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### [Learn More about our Project](https://devpost.com/software/dystic)
 
-### `npm test`
+## Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone to the repository and navigate to it
+```sh
+git clone https://github.com/arnavs-0/dystic
+cd dystic
+```
 
-### `npm run build`
+Install required node_modules
+```sh
+yarn
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+yarn start
+```
+Search for jobs through the homepage, enter your job description, job location, and disibilities. Build a resume here: [Dystic Resume Builder](https://dystic-test.web.app), contribute to the project here on [GitHub](https://github.com/arnavs-0/dystic-resume)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**Note**
+To use the job search, you must run the API locally! Check it out [here](https://github.com/arnavs-0/dystic-api/)
+If you receive an error while searching for jobs, that generally means there is a captcha blocking the request. As a workaround go to Indeed's website and finish the captcha challenge. Currently, our job search only supports areas within the US.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Future Plans
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* First of all we want to make the website responsive. Although we use Bootstrap, we used a lot of custom SCSS which is not mobile optimized
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Get an Accessibility score of 100! (Currently at 98 on web.dev)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Implement a better API without the use of Indeed
 
-## Learn More
+* and more!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Job search not available outside of US
+* Chatbot is buggy with unknown responses
+* Not Responsive
+* Locally hosted API is required
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **arnavs-0, andytubeee, Sohil1926, staranger01**
 
-### Analyzing the Bundle Size
+* Github: 
+  
+[@arnavs-0](https://github.com/arnavs-0)
+  
+[@andytubeee](https://github.com/andytubeee)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[@Sohil1926](https://github.com/Sohil1926)
 
-### Making a Progressive Web App
+[@staranger01](https://github.com/staranger01)
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues and feature requests are welcome!
+<br />Feel free to check [issues page](https://github.com/arnavs-0/dystic/issues). 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributing Guidelines Here:
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if this project helped you!
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Special Thanks to Google Cloud for sponsoring the launch of this project!
