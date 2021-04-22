@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import '../../Styles/common/ResumeInsightModal.scss'
 import SkillBar from 'react-skills-bars';
+import {toast} from 'react-toastify'
+import Swal from 'sweetalert2'
+
 
 
 function ResumeInsightModal(props) {
@@ -18,17 +21,29 @@ function ResumeInsightModal(props) {
 
     useEffect(()=>{
         getResumeInsight(props.resumeID).then(value => {
-            value.concepts.map(v => {
-                // concepts.push({type: v.text, level: v.relevance*100})
-                // console.log({type: v.text, level: v.relevance*100})
-                setConcepts(prev => [...prev, {type: v.text, level: (v.relevance*100).toFixed(4)}])
-            })
-            // value.emotion.document.emotion.map(v=>{
-            //     setEmotions(prev => [...prev, {type: v.text, level: Math.round(v.relevance*100)}])
-            // })
-            Object.keys(value.emotion.document.emotion).map((key, index) => {
-                setEmotions(prevState => [...prevState, {type:capitalize(key), level: value.emotion.document.emotion[key]*100}])
-            })
+           try {
+               value.concepts.map(v => {
+                   // concepts.push({type: v.text, level: v.relevance*100})
+                   // console.log({type: v.text, level: v.relevance*100})
+                   setConcepts(prev => [...prev, {type: v.text, level: (v.relevance*100).toFixed(4)}])
+               })
+               Object.keys(value.emotion.document.emotion).map((key, index) => {
+                   setEmotions(prevState => [...prevState, {type:capitalize(key), level: value.emotion.document.emotion[key]*100}])
+               })
+           }
+           catch (e) {
+               setConcepts([{type: "Error", level: 100}])
+               setEmotions([{type: "Error", level: 100}])
+               toast.error('Error',{
+                   position: "bottom-right",
+                   autoClose: 5000,
+                   hideProgressBar: false,
+                   closeOnClick: true,
+                   pauseOnHover: true,
+                   draggable: true,
+                   progress: undefined,
+               });
+           }
 
         })
     },[])
@@ -40,6 +55,8 @@ function ResumeInsightModal(props) {
             background: '#1A2E35'
         }
     }
+
+
     return (
         <div className={"resume-insight-modal-container"}>
             <p className={"rim-title"}>{props.resumeID} Resume Insight</p>

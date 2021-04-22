@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="">
+    <list default="true" id="3b0223db-82b0-4c32-85b7-9a94f70873be" name="Default Changelist" comment="Rounding update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/common/ResumeInsightModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ResumeInsightModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +59,6 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Shortened name to prevent wrap">
@@ -99,7 +89,11 @@
       <option name="presentableId" value="Default" />
       <updated>1617400395632</updated>
       <workItem from="1617400399454" duration="1347000" />
-      <workItem from="1617550299714" duration="3913000" />
+      <workItem from="1617550299714" duration="5391000" />
+      <workItem from="1617555867033" duration="12000" />
+      <workItem from="1617557155167" duration="935000" />
+      <workItem from="1617572490795" duration="70000" />
+      <workItem from="1619118657342" duration="724000" />
     </task>
     <task id="LOCAL-00004" summary="Parse complete">
       <created>1617553820052</created>
@@ -115,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617554152050</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rounding update">
+      <created>1617554323776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617554323776</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +140,7 @@
     <MESSAGE value="Added view switcher" />
     <MESSAGE value="Parse complete" />
     <MESSAGE value="Style update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style update" />
+    <MESSAGE value="Rounding update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rounding update" />
   </component>
 </project>

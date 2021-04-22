@@ -20,6 +20,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-skills-bars": "^1.0.0-development",
+    "react-toastify": "^7.0.3",
+    "reactjs-popup": "^2.0.4",
+    "sweetalert2": "^10.15.7",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

@@ -7,7 +7,9 @@ import NotFound from './Components/Pages/404';
 import ResultsPage from "./Components/Pages/ResultsPage";
 import ResumeInsightModal from "./Components/common/ResumeInsightModal";
 
-
+// Test
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 // import Footer from "./Components/common/Footer";
 // import Contact from './Components/Pages/Contact';
@@ -48,8 +50,9 @@ function App() {
     //     <Route component={NotFound} />
     //   </Switch>
     // </Router>
-      <ResumeInsightModal resumeID="9eabxn"/>
-  );
+
+    <ResumeInsightModal resumeID="9eabxn"/>
+);
 }
 
 export default App;
