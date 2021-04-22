@@ -11,7 +11,7 @@
   Making Job Search More Accessible
 </h3>
 <p align="center">
- dystic is an open source job search platform. This API is an Indeed Scraper to Find Jobs that suit a certain keywords given a condition. Please note that this scraper is used for educational purposes. Please use at your own risk. See License for more details.
+ dystic is an open source job search platform. This repository holds the frontend of the website.
 </p>
 
 
@@ -21,7 +21,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/arnavs-0/dystic-api/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
   </a>
 </p>
 
@@ -41,7 +41,7 @@ cd dystic
 
 Install required node_modules
 ```sh
-yarn add
+yarn
 ```
 
 ## Usage
@@ -53,24 +53,25 @@ Search for jobs through the homepage, enter your job description, job location, 
 
 
 **Note**
-
+To use the job search, you must run the API locally! Check it out [here](https://github.com/arnavs-0/dystic-api/)
 If you receive an error while searching for jobs, that generally means there is a captcha blocking the request. As a workaround go to Indeed's website and finish the captcha challenge. Currently, our job search only supports areas within the US.
 
 ## Future Plans
 
-* We hope to support an international search so users outside the US are able to use it
+* First of all we want to make the website responsive. Although we use Bootstrap, we used a lot of custom SCSS which is not mobile optimized
 
-* Find a workaround for the Indeed captcha
+* Get an Accessibility score of 100! (Currently at 98 on web.dev)
 
-* Implement ML to return jobs suitable for any user rather than using only keywords
+* Implement a better API without the use of Indeed
 
 * and more!
 
 ## Issues
 
 * Job search not available outside of US
-* Job filters requires machine learning instead of fixed keywords
 * Chatbot is buggy with unknown responses
+* Not Responsive
+* Locally hosted API is required
 
 ## Authors
 
@@ -90,7 +91,7 @@ If you receive an error while searching for jobs, that generally means there is 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-<br />Feel free to check [issues page](https://github.com/arnavs-0/dystic-api/issues). 
+<br />Feel free to check [issues page](https://github.com/arnavs-0/dystic/issues). 
 
 Contributing Guidelines Here:
 
@@ -98,27 +99,4 @@ Contributing Guidelines Here:
 
 Give a ⭐️ if this project helped you!
 
-
-## License
-
-```
-Copyright (c) 2021 arnavs-0, andytubeee, Sohil1926, staranger01
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+#### Special Thanks to Google Cloud for sponsoring the launch of this project!
