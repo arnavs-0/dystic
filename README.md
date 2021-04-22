@@ -49,7 +49,7 @@ yarn
 ```sh
 yarn start
 ```
-Search for jobs through the homepage, enter your job description, job location, and disibilities. Build a resume here: [Dystic Resume Builder](dystic-test.web.app), contribute to the project here on [GitHub](https://github.com/arnavs-0/dystic-resume)
+Search for jobs through the homepage, enter your job description, job location, and disibilities. Build a resume here: [Dystic Resume Builder](https://dystic-test.web.app), contribute to the project here on [GitHub](https://github.com/arnavs-0/dystic-resume)
 
 
 **Note**
