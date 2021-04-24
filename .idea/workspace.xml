@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4505834b-545a-4e8d-b32f-aee328ba5fd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/MapResults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Results.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ResultsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/Checkboxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Checkboxes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/InputText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/JobCardExpand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/About/AboutMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/About/AboutMiddle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/About/AboutParagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/About/AboutParagraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/About/AboutTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/About/AboutTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/Contact/ContactContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/form/Newsletter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/form/Newsletter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/FilterResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/FilterResults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/InnerSearchContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/InnerSearchContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/other/home/SearchButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/other/home/SearchButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +24,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Components/other/home/Search.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Components/Pages/Map.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/other/home/Search.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qXzKBCa9KEDPI4Guw4nIt23SWf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,6 +70,9 @@
       <workItem from="1617666585301" duration="2529000" />
       <workItem from="1617670932251" duration="687000" />
       <workItem from="1617723639187" duration="628000" />
+      <workItem from="1618080182829" duration="365000" />
+      <workItem from="1619286525618" duration="167000" />
+      <workItem from="1619286727618" duration="1095000" />
     </task>
     <servers />
   </component>

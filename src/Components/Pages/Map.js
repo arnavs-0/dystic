@@ -25,7 +25,7 @@ const onLoading = marker => {
 function Map() {
     const {isLoaded} = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyA-XZEgzbTFdr3hw7xBqpo7S_2nOxmTDng"
+        googleMapsApiKey: process.env.REACT_APP_GOOGLEMAPSAPIKEY
     })
 
     const [map, setMap] = React.useState(null)
