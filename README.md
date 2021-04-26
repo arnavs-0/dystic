@@ -93,7 +93,7 @@ If you receive an error while searching for jobs, that generally means there is 
 Contributions, issues and feature requests are welcome!
 <br />Feel free to check [issues page](https://github.com/arnavs-0/dystic/issues). 
 
-Contributing Guidelines Here:
+Contributing Guidelines Here: https://github.com/arnavs-0/dystic/blob/master/CODE_OF_CONDUCT.md
 
 ## Show your support
 
