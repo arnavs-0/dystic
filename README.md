@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  dystic 
+  dystic
 </h1>
 
 <h3 align="center">
