@@ -56,7 +56,7 @@ and disibilities. Build a resume here:
 [Dystic Resume Builder](https://dystic-test.web.app), contribute to the project
 here on [GitHub](https://github.com/arnavs-0/dystic-resume)
 
-**Note** To use the job search, you must run the API locally! Check it out
+**NOTE** To use the job search, you must run the API locally! Check it out
 [here](https://github.com/arnavs-0/dystic-api/) If you receive an error while
 searching for jobs, that generally means there is a captcha blocking the
 request. As a workaround go to Indeed's website and finish the captcha
